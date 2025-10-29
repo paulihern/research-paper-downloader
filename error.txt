@@ -1,0 +1,584 @@
+2025-10-29 17:37:27 - Multiple author candidates found for 'Alex Vakakis':
+- A. Vakakis (102290156), Papers: 5, Citations: 122, URL: https://www.semanticscholar.org/author/102290156
+- A. Vakakis (2041393), Papers: 627, Citations: 21792, URL: https://www.semanticscholar.org/author/2041393
+
+2025-10-29 17:37:28 - Multiple author candidates found for 'Amy  Wagoner Johnson':
+- A. W. Johnson (2207707224), Papers: 3, Citations: 13, URL: https://www.semanticscholar.org/author/2207707224
+- A. Johnson (32737729), Papers: 29, Citations: 691, URL: https://www.semanticscholar.org/author/32737729
+- A. W. Wagoner Johnson (8682370), Papers: 53, Citations: 2216, URL: https://www.semanticscholar.org/author/8682370
+- A. W. Johnson (2322652071), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2322652071
+- Amy Johnson (47646417), Papers: 10, Citations: 1, URL: https://www.semanticscholar.org/author/47646417
+
+2025-10-29 17:37:30 - Multiple author candidates found for 'Anthony Jacobi':
+- A. Jacobi (4332991), Papers: 297, Citations: 10812, URL: https://www.semanticscholar.org/author/4332991
+- J. Anthony (79481801), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/79481801
+- Anthony Jacobi (2283330908), Papers: 3, Citations: 64, URL: https://www.semanticscholar.org/author/2283330908
+- Anthony Jacobi (2315429790), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2315429790
+- Anthony Jacobi (2299423460), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2299423460
+
+2025-10-29 17:37:36 - Multiple author candidates found for 'Arend  van der Zande':
+- A. V. D. Zande (40797494), Papers: 53, Citations: 5592, URL: https://www.semanticscholar.org/author/40797494
+- Arend M. van der Zande (84425166), Papers: 2, Citations: 72, URL: https://www.semanticscholar.org/author/84425166
+- A. M. Zande (2158571125), Papers: 7, Citations: 85, URL: https://www.semanticscholar.org/author/2158571125
+- A. M. van der Zande (5810445), Papers: 99, Citations: 16422, URL: https://www.semanticscholar.org/author/5810445
+- Arend van der Zande (2354381741), Papers: 1, Citations: 24, URL: https://www.semanticscholar.org/author/2354381741
+
+2025-10-29 17:37:36 - Multiple author candidates found for 'Arne J. Pearlstein':
+- Arne J. Pearlstein (10441352), Papers: 134, Citations: 2337, URL: https://www.semanticscholar.org/author/10441352
+- Arne J. Pearlstein (2278213566), Papers: 2, Citations: 18, URL: https://www.semanticscholar.org/author/2278213566
+- Arne J. Pearlstein (2079286073), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2079286073
+
+2025-10-29 17:37:38 - Multiple author candidates found for 'Bill King':
+- B. King (1518157635), Papers: 17, Citations: 5, URL: https://www.semanticscholar.org/author/1518157635
+- B. King (40194969), Papers: 27, Citations: 800, URL: https://www.semanticscholar.org/author/40194969
+- W. King (96679506), Papers: 31, Citations: 209, URL: https://www.semanticscholar.org/author/96679506
+- Bill King (47334530), Papers: 11, Citations: 67, URL: https://www.semanticscholar.org/author/47334530
+- Bill E King (2269573622), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/2269573622
+
+2025-10-29 17:37:43 - Multiple author candidates found for 'Bumsoo Han':
+- B. Han (102497802), Papers: 5, Citations: 2, URL: https://www.semanticscholar.org/author/102497802
+- B. Han (2116919702), Papers: 5, Citations: 36, URL: https://www.semanticscholar.org/author/2116919702
+- B. Han (87305871), Papers: 6, Citations: 0, URL: https://www.semanticscholar.org/author/87305871
+- Bumsoo Han (2116919212), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2116919212
+- Bumsoo Han (2257285059), Papers: 1, Citations: 46, URL: https://www.semanticscholar.org/author/2257285059
+
+2025-10-29 17:37:47 - Multiple author candidates found for 'Callan Luetkemeyer':
+- Callan M. Luetkemeyer (14179696), Papers: 21, Citations: 199, URL: https://www.semanticscholar.org/author/14179696
+- Callan Luetkemeyer (2376754432), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/2376754432
+
+2025-10-29 17:37:48 - Multiple author candidates found for 'Craig Bradshaw':
+- C. Bradshaw (2055798203), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2055798203
+- C. Bradshaw (46228655), Papers: 61, Citations: 614, URL: https://www.semanticscholar.org/author/46228655
+- C. Woelfel (133806962), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/133806962
+- Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
+- Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
+
+2025-10-29 17:37:49 - Multiple author candidates found for 'Elif  Ertekin':
+- E. Ertekin (4810854), Papers: 204, Citations: 5010, URL: https://www.semanticscholar.org/author/4810854
+- gens Elif Ertekin (2077328774), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2077328774
+- Elif Ertekin (2336411913), Papers: 7, Citations: 5, URL: https://www.semanticscholar.org/author/2336411913
+- Elif Ertekin (2344757902), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2344757902
+- Elif Ertekin (2077357138), Papers: 5, Citations: 6, URL: https://www.semanticscholar.org/author/2077357138
+
+2025-10-29 17:37:50 - Multiple author candidates found for 'Elizabeth T. Hsiao-Wecksler':
+- Elizabeth T. Hsiao-Wecksler (2248876811), Papers: 15, Citations: 21, URL: https://www.semanticscholar.org/author/2248876811
+- E. Hsiao-Wecksler (1398994764), Papers: 135, Citations: 3016, URL: https://www.semanticscholar.org/author/1398994764
+- T. Elizabeth (148193126), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/148193126
+- Elizabeth T. Hsiao Wecksler (4091383), Papers: 1, Citations: 17, URL: https://www.semanticscholar.org/author/4091383
+- Elizabeth T. Hsiao-Wecksler (2082894555), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2082894555
+
+2025-10-29 17:37:52 - Multiple author candidates found for 'Gaurav  Bahl':
+- G. Bahl (2084009350), Papers: 2, Citations: 33, URL: https://www.semanticscholar.org/author/2084009350
+- G. Bahl (46774047), Papers: 51, Citations: 477, URL: https://www.semanticscholar.org/author/46774047
+- G. Bahl (1995045), Papers: 138, Citations: 4144, URL: https://www.semanticscholar.org/author/1995045
+- Gaurav Bahl (2258719099), Papers: 9, Citations: 12, URL: https://www.semanticscholar.org/author/2258719099
+- Gaurav Bahl (2084009368), Papers: 1, Citations: 1, URL: https://www.semanticscholar.org/author/2084009368
+
+2025-10-29 17:37:53 - Multiple author candidates found for 'Harley T. Johnson':
+- Harley T. Johnson (2284238075), Papers: 6, Citations: 5, URL: https://www.semanticscholar.org/author/2284238075
+- H. Johnson (31316540), Papers: 149, Citations: 2705, URL: https://www.semanticscholar.org/author/31316540
+- Harley T. Johnson (2265309950), Papers: 5, Citations: 3, URL: https://www.semanticscholar.org/author/2265309950
+
+2025-10-29 17:37:54 - Multiple author candidates found for 'Huseyin  Sehitoglu':
+- H. Sehitoglu (2255645861), Papers: 13, Citations: 85, URL: https://www.semanticscholar.org/author/2255645861
+- H. Sehitoglu (2249875174), Papers: 4, Citations: 10, URL: https://www.semanticscholar.org/author/2249875174
+- H. Sehitoglu (4163564), Papers: 383, Citations: 18922, URL: https://www.semanticscholar.org/author/4163564
+- Huseyin Sehitoglu (2288991670), Papers: 1, Citations: 130, URL: https://www.semanticscholar.org/author/2288991670
+- Sehitoglu Huseyin (115954524), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/115954524
+
+2025-10-29 17:38:00 - Multiple author candidates found for 'Iwona M. Jasiuk':
+- I. Jasiuk (46343924), Papers: 260, Citations: 8401, URL: https://www.semanticscholar.org/author/46343924
+- I M Jasiuk (2253835090), Papers: 7, Citations: 43, URL: https://www.semanticscholar.org/author/2253835090
+- Iwona M Jasiuk (2301561413), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2301561413
+
+2025-10-29 17:38:01 - Multiple author candidates found for 'Janelle Wharry':
+- J. Wharry (92621606), Papers: 134, Citations: 1891, URL: https://www.semanticscholar.org/author/92621606
+- Janelle P. Wharry (2274539039), Papers: 12, Citations: 39, URL: https://www.semanticscholar.org/author/2274539039
+- Janelle P. Wharry (2265264448), Papers: 4, Citations: 11, URL: https://www.semanticscholar.org/author/2265264448
+- P. Janelle (145679347), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/145679347
+- Janelle P. Wharry (2255628454), Papers: 4, Citations: 5, URL: https://www.semanticscholar.org/author/2255628454
+
+2025-10-29 17:38:02 - Multiple author candidates found for 'Jiajun  He':
+- Jia-min He (49264206), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/49264206
+- Jiajun He (2363686178), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2363686178
+- He Jiajun (67033682), Papers: 10, Citations: 19, URL: https://www.semanticscholar.org/author/67033682
+- Jiajun He (2279069138), Papers: 6, Citations: 2, URL: https://www.semanticscholar.org/author/2279069138
+- Jianyuan He (2216205146), Papers: 2, Citations: 55, URL: https://www.semanticscholar.org/author/2216205146
+
+2025-10-29 17:38:03 - Multiple author candidates found for 'Jie  Feng':
+- Jiewen Feng (119000628), Papers: 4, Citations: 48, URL: https://www.semanticscholar.org/author/119000628
+- Fengke Jie (31195843), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/31195843
+- J. Feng (2000950395), Papers: 3, Citations: 31, URL: https://www.semanticscholar.org/author/2000950395
+- Jie Feng (2109020470), Papers: 28, Citations: 360, URL: https://www.semanticscholar.org/author/2109020470
+- J. Feng (2138546523), Papers: 7, Citations: 104, URL: https://www.semanticscholar.org/author/2138546523
+
+2025-10-29 17:38:07 - Multiple author candidates found for 'Joseph  Bentsman':
+- J. Bentsman (2267507409), Papers: 5, Citations: 387, URL: https://www.semanticscholar.org/author/2267507409
+- B. Joseph (153738413), Papers: 1, Citations: 10, URL: https://www.semanticscholar.org/author/153738413
+- J. Bentsman (2185953), Papers: 237, Citations: 3686, URL: https://www.semanticscholar.org/author/2185953
+- Joseph Bentsman (2086101137), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2086101137
+
+2025-10-29 17:38:09 - Multiple author candidates found for 'Justin Yim':
+- Justin K Yim (2347526636), Papers: 3, Citations: 8, URL: https://www.semanticscholar.org/author/2347526636
+- Justin K. Yim (2152331), Papers: 24, Citations: 1212, URL: https://www.semanticscholar.org/author/2152331
+- J. Yim (49841310), Papers: 8, Citations: 61, URL: https://www.semanticscholar.org/author/49841310
+- Justin K. Yim (2321403870), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/2321403870
+- Justin K. Yim (2327427717), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2327427717
+
+2025-10-29 17:38:10 - Multiple author candidates found for 'Kathryn  Matlack':
+- K. Matlack (39895612), Papers: 102, Citations: 2158, URL: https://www.semanticscholar.org/author/39895612
+- Kathryn Matlack (2373186018), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2373186018
+- Kathryn H. Matlack (2138466077), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2138466077
+- Cochair Kathryn Matlack (2311133470), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2311133470
+
+2025-10-29 17:38:11 - Multiple author candidates found for 'Ke  Tang':
+- Keyi Tang (1492059373), Papers: 22, Citations: 249, URL: https://www.semanticscholar.org/author/1492059373
+- Ke-jing Tang (2143159197), Papers: 7, Citations: 139, URL: https://www.semanticscholar.org/author/2143159197
+- Kesi Tang (1928224617), Papers: 4, Citations: 41, URL: https://www.semanticscholar.org/author/1928224617
+- Keqin Tang (88319876), Papers: 4, Citations: 18, URL: https://www.semanticscholar.org/author/88319876
+- Keyan Tang (98686497), Papers: 7, Citations: 44, URL: https://www.semanticscholar.org/author/98686497
+
+2025-10-29 17:38:26 - Multiple author candidates found for 'Kyle Smith':
+- Kyle T. Smith (2109779599), Papers: 6, Citations: 241, URL: https://www.semanticscholar.org/author/2109779599
+- Kyle A. Smith (1873099210), Papers: 23, Citations: 157, URL: https://www.semanticscholar.org/author/1873099210
+- Kyle Smith (2130399419), Papers: 7, Citations: 36, URL: https://www.semanticscholar.org/author/2130399419
+- Kyle S Smith (2312675688), Papers: 9, Citations: 5, URL: https://www.semanticscholar.org/author/2312675688
+- Kyle W Smith (49013971), Papers: 3, Citations: 270, URL: https://www.semanticscholar.org/author/49013971
+
+2025-10-29 17:38:32 - Multiple author candidates found for 'L. Winston Zhang':
+- L. W. Zhang (2358285326), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2358285326
+- L. Zhang (48571085), Papers: 34, Citations: 501, URL: https://www.semanticscholar.org/author/48571085
+- L. Winston Zhang (2123026438), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2123026438
+- L. Winston Zhang (2256510427), Papers: 1, Citations: 91, URL: https://www.semanticscholar.org/author/2256510427
+
+2025-10-29 17:38:33 - Multiple author candidates found for 'Leonardo Chamorro':
+- L. CHAMORRO A. (2251107035), Papers: 2, Citations: 10, URL: https://www.semanticscholar.org/author/2251107035
+- L. Chamorro (4137694), Papers: 271, Citations: 4540, URL: https://www.semanticscholar.org/author/4137694
+- A. Chamorro (40071196), Papers: 4, Citations: 14, URL: https://www.semanticscholar.org/author/40071196
+- Leonardo Miguel Chamorro Anaya (2133111068), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2133111068
+- Leonardo Chamorro (2322156665), Papers: 4, Citations: 50, URL: https://www.semanticscholar.org/author/2322156665
+
+2025-10-29 17:38:34 - Multiple author candidates found for 'Lili  Cai':
+- Cai Lili (71502032), Papers: 33, Citations: 16, URL: https://www.semanticscholar.org/author/71502032
+- Li-li Cai (47236933), Papers: 2, Citations: 7, URL: https://www.semanticscholar.org/author/47236933
+- Lili Cai (2290083166), Papers: 3, Citations: 4, URL: https://www.semanticscholar.org/author/2290083166
+- Li-Juan Cai (2112832302), Papers: 3, Citations: 30, URL: https://www.semanticscholar.org/author/2112832302
+- Li-Qiang Cai (102964710), Papers: 5, Citations: 8, URL: https://www.semanticscholar.org/author/102964710
+
+2025-10-29 17:38:35 - Multiple author candidates found for 'M Taher A. Saif':
+- M. Saif (117970690), Papers: 48, Citations: 1190, URL: https://www.semanticscholar.org/author/117970690
+- M. T. A. Saif (2329324861), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2329324861
+- M. Saif (2251938547), Papers: 2, Citations: 388, URL: https://www.semanticscholar.org/author/2251938547
+- M. T. A. Saif (2266025877), Papers: 5, Citations: 26, URL: https://www.semanticscholar.org/author/2266025877
+- M. T. A. Saif (2344821087), Papers: 1, Citations: 1, URL: https://www.semanticscholar.org/author/2344821087
+
+2025-10-29 17:38:36 - Multiple author candidates found for 'M. Quinn Brewster':
+- M. Brewster (47258804), Papers: 161, Citations: 3315, URL: https://www.semanticscholar.org/author/47258804
+- M. Brewster (72804211), Papers: 14, Citations: 1, URL: https://www.semanticscholar.org/author/72804211
+- M. Q. Brewster (2275670330), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2275670330
+- M. Q. Brewster (2327254805), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/2327254805
+
+2025-10-29 17:38:38 - Multiple author candidates found for 'Mariana E. Kersh':
+- M. Kersh (4648221), Papers: 94, Citations: 1118, URL: https://www.semanticscholar.org/author/4648221
+- E. Mariana (146630452), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/146630452
+- M.E. Kersh (2361796928), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2361796928
+- Mariana E. Kersh (2270849787), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2270849787
+- Mariana E. Kersh (2127667898), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2127667898
+
+2025-10-29 17:38:39 - Multiple author candidates found for 'Martin  Ostoja-Starzewski':
+- M. Ostoja-Starzewski (101521196), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/101521196
+- M. Ostoja-Starzewski (1452119473), Papers: 381, Citations: 10430, URL: https://www.semanticscholar.org/author/1452119473
+- M. Ostoja-Starzewski (2271326794), Papers: 7, Citations: 2, URL: https://www.semanticscholar.org/author/2271326794
+- Martin Ostoja-Starzewski (2248076389), Papers: 3, Citations: 177, URL: https://www.semanticscholar.org/author/2248076389
+- Martin Ostoja Starzewski (71607008), Papers: 17, Citations: 33, URL: https://www.semanticscholar.org/author/71607008
+
+2025-10-29 17:38:40 - Multiple author candidates found for 'Matthew  West':
+- M. West (2055933040), Papers: 4, Citations: 15, URL: https://www.semanticscholar.org/author/2055933040
+- Matthew P. West (152239679), Papers: 15, Citations: 171, URL: https://www.semanticscholar.org/author/152239679
+- Matthew B West (40388766), Papers: 37, Citations: 1357, URL: https://www.semanticscholar.org/author/40388766
+- M. West (11950845), Papers: 12, Citations: 442, URL: https://www.semanticscholar.org/author/11950845
+- M. West (80389026), Papers: 18, Citations: 80, URL: https://www.semanticscholar.org/author/80389026
+
+2025-10-29 17:38:41 - Multiple author candidates found for 'Mattia  Gazzola':
+- M. Gazzola (2597297), Papers: 107, Citations: 3251, URL: https://www.semanticscholar.org/author/2597297
+- Gazzola Mattia (103841337), Papers: 1, Citations: 1, URL: https://www.semanticscholar.org/author/103841337
+
+2025-10-29 17:38:44 - Multiple author candidates found for 'Naira Hovakimyan':
+- N. Hovakimyan (2130392), Papers: 585, Citations: 12467, URL: https://www.semanticscholar.org/author/2130392
+- Naira Hovakimyan (2061863192), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2061863192
+- Hovakimyan Naira (1644380833), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/1644380833
+
+2025-10-29 17:38:45 - Multiple author candidates found for 'Nazanin  Farjam':
+- Nazanin Farjam (103644296), Papers: 9, Citations: 86, URL: https://www.semanticscholar.org/author/103644296
+- Nazanin Farjam (2302036325), Papers: 3, Citations: 18, URL: https://www.semanticscholar.org/author/2302036325
+- Nazanin Farjam (2302036330), Papers: 4, Citations: 30, URL: https://www.semanticscholar.org/author/2302036330
+
+2025-10-29 17:38:46 - Multiple author candidates found for 'Nenad  Miljkovic':
+- N. Miljkovic (5089466), Papers: 265, Citations: 14654, URL: https://www.semanticscholar.org/author/5089466
+- N. Miljkovic (2240066861), Papers: 51, Citations: 403, URL: https://www.semanticscholar.org/author/2240066861
+- Nenad Miljkovic (2262362624), Papers: 14, Citations: 54, URL: https://www.semanticscholar.org/author/2262362624
+- Nenad Miljković (2071521127), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2071521127
+- Nenad Miljković (2071521131), Papers: 25, Citations: 616, URL: https://www.semanticscholar.org/author/2071521131
+
+2025-10-29 17:38:48 - Multiple author candidates found for 'Nick G. Glumac':
+- N. Glumac (4433619), Papers: 198, Citations: 4278, URL: https://www.semanticscholar.org/author/4433619
+- Wilson K. S. Chiu, Yogesh Jaluria, Nick G. Glumac (1792094498), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/1792094498
+
+2025-10-29 17:38:49 - Multiple author candidates found for 'Nikhil Chandra  Admal':
+- N. Admal (10090573), Papers: 38, Citations: 633, URL: https://www.semanticscholar.org/author/10090573
+- Admal Nikhil Chandra (114055536), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/114055536
+
+2025-10-29 17:38:50 - Multiple author candidates found for 'Paul  Fischer':
+- P. Fischer (144884194), Papers: 11, Citations: 4, URL: https://www.semanticscholar.org/author/144884194
+- P. Fischer (15241173), Papers: 7, Citations: 38, URL: https://www.semanticscholar.org/author/15241173
+- Paul F. Fischer (2239462699), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/2239462699
+- P. Fischer (2072760939), Papers: 12, Citations: 67, URL: https://www.semanticscholar.org/author/2072760939
+- P. Fischer (2072760652), Papers: 2, Citations: 40, URL: https://www.semanticscholar.org/author/2072760652
+
+2025-10-29 17:38:51 - Multiple author candidates found for 'Petros Sofronis':
+- S. Petros (2073548074), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2073548074
+- P. Sofronis (2358951074), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2358951074
+- P. Sofronis (15494645), Papers: 165, Citations: 10448, URL: https://www.semanticscholar.org/author/15494645
+- S. Petros (15698548), Papers: 5, Citations: 0, URL: https://www.semanticscholar.org/author/15698548
+
+2025-10-29 17:38:52 - Multiple author candidates found for 'Placid Ferreira':
+- P. M. Ferreira (2254990095), Papers: 4, Citations: 54, URL: https://www.semanticscholar.org/author/2254990095
+- P. M. Ferreira (2054692052), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2054692052
+- P. Ferreira (145577383), Papers: 223, Citations: 10864, URL: https://www.semanticscholar.org/author/145577383
+- Placid M. Ferreira (2256446568), Papers: 3, Citations: 474, URL: https://www.semanticscholar.org/author/2256446568
+- M. F. Placid (116957586), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/116957586
+
+2025-10-29 17:38:54 - Multiple author candidates found for 'Prashant Mehta':
+- P. Mehta (2112149782), Papers: 5, Citations: 58, URL: https://www.semanticscholar.org/author/2112149782
+- P. Mehta (1773940), Papers: 172, Citations: 3783, URL: https://www.semanticscholar.org/author/1773940
+- P. Mehta (2054502773), Papers: 16, Citations: 52, URL: https://www.semanticscholar.org/author/2054502773
+- G. Prashant (15998870), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/15998870
+- M. Prashant (89421945), Papers: 3, Citations: 31, URL: https://www.semanticscholar.org/author/89421945
+
+2025-10-29 17:38:55 - Multiple author candidates found for 'Randy H. Ewoldt':
+- R. Ewoldt (143620353), Papers: 205, Citations: 8661, URL: https://www.semanticscholar.org/author/143620353
+- H. Randy (89198671), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/89198671
+- H. E. Randy (2085331166), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2085331166
+- Randy H. Ewoldt (2353104442), Papers: 7, Citations: 1, URL: https://www.semanticscholar.org/author/2353104442
+- Randy H. Ewoldt (2380154931), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2380154931
+
+2025-10-29 17:38:56 - Multiple author candidates found for 'Sameh Tawfick':
+- S. Tawfick (4142554), Papers: 155, Citations: 8390, URL: https://www.semanticscholar.org/author/4142554
+- Sameh Tawfick (2303013058), Papers: 8, Citations: 10, URL: https://www.semanticscholar.org/author/2303013058
+- Sameh Tawfick (2309998487), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2309998487
+- Sameh Tawfick (2251099202), Papers: 5, Citations: 13, URL: https://www.semanticscholar.org/author/2251099202
+- Sameh Tawfick (2369061968), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2369061968
+
+2025-10-29 17:39:03 - Multiple author candidates found for 'Sanjiv  Sinha':
+- S. Sanjiv (2313107723), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2313107723
+- S. Sinha (2327508528), Papers: 2, Citations: 3, URL: https://www.semanticscholar.org/author/2327508528
+- S. Sinha (2114125364), Papers: 9, Citations: 15, URL: https://www.semanticscholar.org/author/2114125364
+- S. Sinha (49556241), Papers: 39, Citations: 533, URL: https://www.semanticscholar.org/author/49556241
+- S. Sinha (2114125166), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2114125166
+
+2025-10-29 17:39:03 - Multiple author candidates found for 'Sascha  Hilgenfeldt':
+- S. Hilgenfeldt (3018257), Papers: 211, Citations: 7377, URL: https://www.semanticscholar.org/author/3018257
+- Sascha Hilgenfeldt (2254052595), Papers: 3, Citations: 19, URL: https://www.semanticscholar.org/author/2254052595
+- Sascha Hilgenfeldt (2071664460), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2071664460
+- Sascha Hilgenfeldt (2249381460), Papers: 1, Citations: 8, URL: https://www.semanticscholar.org/author/2249381460
+- Sascha Hilgenfeldt (2071664455), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/2071664455
+
+2025-10-29 17:39:07 - Multiple author candidates found for 'Shelby  Hutchens':
+- S. B. Hutchens (9831923), Papers: 44, Citations: 898, URL: https://www.semanticscholar.org/author/9831923
+- N. S. Hutchens (121460289), Papers: 3, Citations: 7, URL: https://www.semanticscholar.org/author/121460289
+- Shelby Hutchens (2376747103), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2376747103
+- Shelby Hutchens (2094516845), Papers: 2, Citations: 17, URL: https://www.semanticscholar.org/author/2094516845
+
+2025-10-29 17:39:08 - Multiple author candidates found for 'Siyi  Xu':
+- Si-Meng Xu (51201629), Papers: 2, Citations: 24, URL: https://www.semanticscholar.org/author/51201629
+- Siyi Xu (2345326755), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2345326755
+- Siyi Xu (2294778259), Papers: 3, Citations: 7, URL: https://www.semanticscholar.org/author/2294778259
+- Xu Siyi (2096299472), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2096299472
+- Si-Te Xu (2042869243), Papers: 3, Citations: 7, URL: https://www.semanticscholar.org/author/2042869243
+
+2025-10-29 17:39:10 - Multiple author candidates found for 'Sophie  Wang':
+- Sophie H. Wang (1470564968), Papers: 19, Citations: 106, URL: https://www.semanticscholar.org/author/1470564968
+- Sophie X. Wang (2207154152), Papers: 12, Citations: 80, URL: https://www.semanticscholar.org/author/2207154152
+- Sophie Y. Wang (2117075103), Papers: 3, Citations: 55, URL: https://www.semanticscholar.org/author/2117075103
+- S. Wang (2290857093), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2290857093
+- Sophie J Wang (2155442232), Papers: 6, Citations: 20, URL: https://www.semanticscholar.org/author/2155442232
+
+2025-10-29 17:39:11 - Multiple author candidates found for 'Srinivasa M. Salapaka':
+- S. Salapaka (1770735), Papers: 156, Citations: 2276, URL: https://www.semanticscholar.org/author/1770735
+- M. Srinivasa (143952595), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/143952595
+- Srinivasa M. Salapaka (2160258473), Papers: 1, Citations: 43, URL: https://www.semanticscholar.org/author/2160258473
+- Srinivasa M. Salapaka (2282056779), Papers: 9, Citations: 6, URL: https://www.semanticscholar.org/author/2282056779
+
+2025-10-29 17:39:20 - Multiple author candidates found for 'Tonghun  Lee':
+- Tonghun Lee (2254850957), Papers: 1, Citations: 67, URL: https://www.semanticscholar.org/author/2254850957
+- Tonghun Lee (2349733961), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2349733961
+- Lee Tonghun (104407477), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/104407477
+- Tonghun Lee (2381068973), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2381068973
+- Tonghun Lee (2291234016), Papers: 6, Citations: 15, URL: https://www.semanticscholar.org/author/2291234016
+
+2025-10-29 17:39:23 - Multiple author candidates found for 'Bahador Bahmani':
+- B. Bahmani (101566577), Papers: 33, Citations: 459, URL: https://www.semanticscholar.org/author/101566577
+- Amir Bahador Bahmani Bahman Beiglou (2170940362), Papers: 1, Citations: 1, URL: https://www.semanticscholar.org/author/2170940362
+
+2025-10-29 17:39:32 - Multiple author candidates found for 'Cheng Sun':
+- C. Sun (40559422), Papers: 13, Citations: 570, URL: https://www.semanticscholar.org/author/40559422
+- Chengliang Sun (2118831706), Papers: 3, Citations: 11, URL: https://www.semanticscholar.org/author/2118831706
+- C. Sun (152873518), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/152873518
+- Cheng Sun (102245864), Papers: 71, Citations: 2420, URL: https://www.semanticscholar.org/author/102245864
+- C. Sun (1945951964), Papers: 2, Citations: 61, URL: https://www.semanticscholar.org/author/1945951964
+
+2025-10-29 17:39:32 - Multiple author candidates found for 'Elizabeth Gerber':
+- E. Gerber (145003123), Papers: 134, Citations: 3988, URL: https://www.semanticscholar.org/author/145003123
+- Elizabet Gerber (2064276207), Papers: 2, Citations: 305, URL: https://www.semanticscholar.org/author/2064276207
+- Elizabeth M. Gerber (2214756875), Papers: 5, Citations: 26, URL: https://www.semanticscholar.org/author/2214756875
+- Elizabet Gerber (32337919), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/32337919
+- E. Gerber (113967286), Papers: 4, Citations: 269, URL: https://www.semanticscholar.org/author/113967286
+
+2025-10-29 17:39:34 - Multiple author candidates found for 'Gianluca Cusatis':
+- C. Gianluca (78316720), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/78316720
+- G. Cusatis (8858860), Papers: 245, Citations: 6824, URL: https://www.semanticscholar.org/author/8858860
+- Cusatis Gianluca (2080965959), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2080965959
+- Gianluca Cusatis (2383039049), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2383039049
+- Michele Gregori Amedeo Cusatis Gianluca Angiolilli (2097976543), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2097976543
+
+2025-10-29 17:39:35 - Multiple author candidates found for 'Gregory Wagner':
+- G. Wagner (2237516835), Papers: 13, Citations: 88, URL: https://www.semanticscholar.org/author/2237516835
+- Gregory L. Wagner (2239202442), Papers: 7, Citations: 36, URL: https://www.semanticscholar.org/author/2239202442
+- G. Wagner (49475315), Papers: 32, Citations: 635, URL: https://www.semanticscholar.org/author/49475315
+- G. Wagner (91998567), Papers: 120, Citations: 7389, URL: https://www.semanticscholar.org/author/91998567
+- G. Wagner (49475179), Papers: 8, Citations: 8, URL: https://www.semanticscholar.org/author/49475179
+
+2025-10-29 17:39:36 - Multiple author candidates found for 'Horacio Espinosa':
+- H. Espinosa (2064439797), Papers: 3, Citations: 6, URL: https://www.semanticscholar.org/author/2064439797
+- E. Horacio (2074812057), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2074812057
+- E. Horacio (30978776), Papers: 2, Citations: 13, URL: https://www.semanticscholar.org/author/30978776
+- H. Espinosa (2159576368), Papers: 22, Citations: 403, URL: https://www.semanticscholar.org/author/2159576368
+- H. Espinosa (143721134), Papers: 12, Citations: 12, URL: https://www.semanticscholar.org/author/143721134
+
+2025-10-29 17:39:38 - Multiple author candidates found for 'J. Edward Colgate':
+- E. Colgate (47814061), Papers: 26, Citations: 981, URL: https://www.semanticscholar.org/author/47814061
+- J. Colgate (1700106), Papers: 207, Citations: 11238, URL: https://www.semanticscholar.org/author/1700106
+- J. Colgate (153362742), Papers: 12, Citations: 405, URL: https://www.semanticscholar.org/author/153362742
+- J. E. Colgate (2245569187), Papers: 11, Citations: 121, URL: https://www.semanticscholar.org/author/2245569187
+- J. E. Colgate (28504535), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/28504535
+
+2025-10-29 17:39:39 - Multiple author candidates found for 'Jennifer Dunn':
+- J. Dunn (22170975), Papers: 34, Citations: 797, URL: https://www.semanticscholar.org/author/22170975
+- J. Dunn (39366172), Papers: 24, Citations: 214, URL: https://www.semanticscholar.org/author/39366172
+- J. Dunn (150143006), Papers: 14, Citations: 187, URL: https://www.semanticscholar.org/author/150143006
+- J. Dunn (2287111984), Papers: 2, Citations: 4, URL: https://www.semanticscholar.org/author/2287111984
+- Jennifer E. Dunn (2069365659), Papers: 9, Citations: 28, URL: https://www.semanticscholar.org/author/2069365659
+
+2025-10-29 17:39:40 - Multiple author candidates found for 'Jian Cao':
+- Jianjin Cao (92653344), Papers: 46, Citations: 894, URL: https://www.semanticscholar.org/author/92653344
+- J. Cao (2115870197), Papers: 15, Citations: 1179, URL: https://www.semanticscholar.org/author/2115870197
+- Jian-zhong Cao (2986663), Papers: 78, Citations: 1281, URL: https://www.semanticscholar.org/author/2986663
+- Jianye Cao (2115872082), Papers: 5, Citations: 132, URL: https://www.semanticscholar.org/author/2115872082
+- Jianbing Cao (47470386), Papers: 86, Citations: 539, URL: https://www.semanticscholar.org/author/47470386
+
+2025-10-29 17:39:41 - Multiple author candidates found for 'John Rogers':
+- J. Rogers (152132246), Papers: 12, Citations: 2854, URL: https://www.semanticscholar.org/author/152132246
+- J. Rogers (2113851710), Papers: 11, Citations: 39, URL: https://www.semanticscholar.org/author/2113851710
+- J. Rogers (144217667), Papers: 10, Citations: 43, URL: https://www.semanticscholar.org/author/144217667
+- J. Rogers (2113851730), Papers: 13, Citations: 18, URL: https://www.semanticscholar.org/author/2113851730
+- J. Rogers (2113852298), Papers: 20, Citations: 551, URL: https://www.semanticscholar.org/author/2113852298
+
+2025-10-29 17:39:42 - Multiple author candidates found for 'John Rudnicki':
+- J. Rudnicki (17695609), Papers: 160, Citations: 9079, URL: https://www.semanticscholar.org/author/17695609
+- John Rudnicki (2377406144), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377406144
+- John W. Rudnicki (2073261880), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2073261880
+
+2025-10-29 17:39:44 - Multiple author candidates found for 'Jose Pons':
+- J. Pons (145923053), Papers: 165, Citations: 3644, URL: https://www.semanticscholar.org/author/145923053
+- José Pons (2058957275), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2058957275
+- J. Pons (47319717), Papers: 218, Citations: 4719, URL: https://www.semanticscholar.org/author/47319717
+- J. Pons (122615393), Papers: 9, Citations: 67, URL: https://www.semanticscholar.org/author/122615393
+- J. Pons (104187989), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/104187989
+
+2025-10-29 17:39:45 - Multiple author candidates found for 'Julio Ottino':
+- J. Ottino (2556722), Papers: 406, Citations: 16024, URL: https://www.semanticscholar.org/author/2556722
+- J. Ottino (121674987), Papers: 2, Citations: 133, URL: https://www.semanticscholar.org/author/121674987
+- M. Julio (89578171), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/89578171
+- J. F. Ottino (48502393), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/48502393
+- Julio Ottino (2102352884), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2102352884
+
+2025-10-29 17:39:46 - Multiple author candidates found for 'Junsoo Kim':
+- Jun-Su Kim (2320743011), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2320743011
+- Eugene J. Kim (2109895058), Papers: 13, Citations: 1835, URL: https://www.semanticscholar.org/author/2109895058
+- Jun-Soo Kim (2109984862), Papers: 24, Citations: 100, URL: https://www.semanticscholar.org/author/2109984862
+- Jun-Soo Kim (2156962232), Papers: 7, Citations: 30, URL: https://www.semanticscholar.org/author/2156962232
+- Jun-soo Kim (65924951), Papers: 4, Citations: 1, URL: https://www.semanticscholar.org/author/65924951
+
+2025-10-29 17:39:48 - Multiple author candidates found for 'Kevin Lynch':
+- K. Lynch (2093999413), Papers: 6, Citations: 96, URL: https://www.semanticscholar.org/author/2093999413
+- K. Lynch (2112385401), Papers: 43, Citations: 13529, URL: https://www.semanticscholar.org/author/2112385401
+- K. Lynch (2112385569), Papers: 6, Citations: 332, URL: https://www.semanticscholar.org/author/2112385569
+- K. Lynch (2112385425), Papers: 30, Citations: 2270, URL: https://www.semanticscholar.org/author/2112385425
+- K. Lynch (145206199), Papers: 12, Citations: 56, URL: https://www.semanticscholar.org/author/145206199
+
+2025-10-29 17:39:49 - Multiple author candidates found for 'Kornel Ehmann':
+- K. Ehmann (153341215), Papers: 16, Citations: 91, URL: https://www.semanticscholar.org/author/153341215
+- F. Ehmann (2083511492), Papers: 4, Citations: 17, URL: https://www.semanticscholar.org/author/2083511492
+- Kornel Ehmann (2290224789), Papers: 2, Citations: 44, URL: https://www.semanticscholar.org/author/2290224789
+- Kornel Ehmann (2093716523), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/2093716523
+- F. E. Kornel (98820523), Papers: 1, Citations: 4, URL: https://www.semanticscholar.org/author/98820523
+
+2025-10-29 17:39:50 - Multiple author candidates found for 'Malcolm MacIver':
+- M. Maciver (84397527), Papers: 5, Citations: 19, URL: https://www.semanticscholar.org/author/84397527
+- M. A. MacIver (39884769), Papers: 98, Citations: 4392, URL: https://www.semanticscholar.org/author/39884769
+- Malcolm Maciver (2379444317), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2379444317
+
+2025-10-29 17:39:51 - Multiple author candidates found for 'Manohar Kulkarni':
+- M. Kulkarni (91408184), Papers: 175, Citations: 2111, URL: https://www.semanticscholar.org/author/91408184
+- Shraddha Kulkarni (153673778), Papers: 6, Citations: 12, URL: https://www.semanticscholar.org/author/153673778
+- Milind Kulkarni (2053840487), Papers: 4, Citations: 19, URL: https://www.semanticscholar.org/author/2053840487
+- R. M. Kulkarni (2198196638), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2198196638
+- M. Kulkarni (5003285), Papers: 8, Citations: 101, URL: https://www.semanticscholar.org/author/5003285
+
+2025-10-29 17:39:52 - Multiple author candidates found for 'Matthew J. Major':
+- M. Major (6270873), Papers: 86, Citations: 1183, URL: https://www.semanticscholar.org/author/6270873
+- Matthew J. Major (2317054510), Papers: 8, Citations: 4, URL: https://www.semanticscholar.org/author/2317054510
+- Matthew J. Major (2330652422), Papers: 5, Citations: 0, URL: https://www.semanticscholar.org/author/2330652422
+- Matthew J. Major (2378547355), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2378547355
+- Matthew J. Major (2376449762), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2376449762
+
+2025-10-29 17:39:54 - Multiple author candidates found for 'Michael Peshkin':
+- M. Peshkin (1789986), Papers: 250, Citations: 8648, URL: https://www.semanticscholar.org/author/1789986
+- Ieee Michael A. Peshkin Life Senior Member (2276029381), Papers: 1, Citations: 5, URL: https://www.semanticscholar.org/author/2276029381
+- Ieee Fellow (2286535825), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2286535825
+- Michael A. Peshkin (2052373305), Papers: 6, Citations: 0, URL: https://www.semanticscholar.org/author/2052373305
+
+2025-10-29 17:39:55 - Multiple author candidates found for 'Michael Rubenstein':
+- Michael D. Rubenstein (2096430371), Papers: 4, Citations: 12, URL: https://www.semanticscholar.org/author/2096430371
+- Michael N. Rubenstein (47611337), Papers: 6, Citations: 57, URL: https://www.semanticscholar.org/author/47611337
+- M. Rubenstein (2096430035), Papers: 31, Citations: 269, URL: https://www.semanticscholar.org/author/2096430035
+- Michael C. Rubenstein (2921790), Papers: 6, Citations: 36, URL: https://www.semanticscholar.org/author/2921790
+- J. Rubenstein (89942807), Papers: 11, Citations: 127, URL: https://www.semanticscholar.org/author/89942807
+
+2025-10-29 17:39:56 - Multiple author candidates found for 'Mitra Hartmann':
+- M. Hartmann (46851258), Papers: 101, Citations: 2911, URL: https://www.semanticscholar.org/author/46851258
+- M. J. Hartmann (144533125), Papers: 21, Citations: 1144, URL: https://www.semanticscholar.org/author/144533125
+- Mitra J. Hartmann (2237124529), Papers: 7, Citations: 495, URL: https://www.semanticscholar.org/author/2237124529
+- Hartmann Mitra (114840264), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/114840264
+
+2025-10-29 17:39:58 - Multiple author candidates found for 'Naichen Shi':
+- Naichen Shi (2111723583), Papers: 16, Citations: 282, URL: https://www.semanticscholar.org/author/2111723583
+- Naichen Shi (2355253448), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2355253448
+- Naichen Shi (2384126859), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2384126859
+
+2025-10-29 17:39:59 - Multiple author candidates found for 'Neelesh Patankar':
+- N. Patankar (1696499), Papers: 241, Citations: 11178, URL: https://www.semanticscholar.org/author/1696499
+- A. Neelesh (104527477), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/104527477
+
+2025-10-29 17:40:00 - Multiple author candidates found for 'Oluwaseyi Balogun':
+- O. Balogun (144740713), Papers: 104, Citations: 1022, URL: https://www.semanticscholar.org/author/144740713
+- Oluwaseyi Balogun (2248338815), Papers: 4, Citations: 10, URL: https://www.semanticscholar.org/author/2248338815
+- Oluwaseyi Balogun (2309325621), Papers: 5, Citations: 8, URL: https://www.semanticscholar.org/author/2309325621
+- Balogun Oluwaseyi (2130717202), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2130717202
+- Oluwaseyi Balogun (2333904303), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2333904303
+
+2025-10-29 17:40:04 - Multiple author candidates found for 'Ping Guo':
+- P. Guo (2075394456), Papers: 12, Citations: 144, URL: https://www.semanticscholar.org/author/2075394456
+- Pingping Guo (46360956), Papers: 11, Citations: 53, URL: https://www.semanticscholar.org/author/46360956
+- P. Guo (2075394693), Papers: 3, Citations: 8, URL: https://www.semanticscholar.org/author/2075394693
+- Ping-ping Guo (119822910), Papers: 8, Citations: 74, URL: https://www.semanticscholar.org/author/119822910
+- Guozai Ping (21463475), Papers: 4, Citations: 49, URL: https://www.semanticscholar.org/author/21463475
+
+2025-10-29 17:40:05 - Multiple author candidates found for 'Q. Jane Wang':
+- Q. J. Wang (2246843354), Papers: 2, Citations: 26, URL: https://www.semanticscholar.org/author/2246843354
+- Q. J. Wang (3045288), Papers: 20, Citations: 527, URL: https://www.semanticscholar.org/author/3045288
+- Q. Wang (2117846312), Papers: 5, Citations: 48, URL: https://www.semanticscholar.org/author/2117846312
+- Q. Wang (2145356522), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2145356522
+- Q. Wang (145346753), Papers: 3, Citations: 2, URL: https://www.semanticscholar.org/author/145346753
+
+2025-10-29 17:40:06 - Multiple author candidates found for 'Richard Lueptow':
+- R. Lueptow (2801487), Papers: 1, Citations: 3, URL: https://www.semanticscholar.org/author/2801487
+- Richard M. Lueptow (2032380), Papers: 354, Citations: 7370, URL: https://www.semanticscholar.org/author/2032380
+- M. Richard (147580930), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/147580930
+- Lueptow Richard (2069223949), Papers: 1, Citations: 3, URL: https://www.semanticscholar.org/author/2069223949
+- Richard M Lueptow (2178353014), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2178353014
+
+2025-10-29 17:40:08 - Multiple author candidates found for 'Ryan Truby':
+- R. Truby (5791508), Papers: 42, Citations: 9631, URL: https://www.semanticscholar.org/author/5791508
+- Ryan L. Truby (2365119694), Papers: 6, Citations: 1, URL: https://www.semanticscholar.org/author/2365119694
+- Ryan L. Truby (2066079674), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2066079674
+
+2025-10-29 17:40:09 - Multiple author candidates found for 'Sam Kriegman':
+- Sam Kriegman (3450084), Papers: 35, Citations: 1523, URL: https://www.semanticscholar.org/author/3450084
+- Sam Kriegman (2289832325), Papers: 5, Citations: 12, URL: https://www.semanticscholar.org/author/2289832325
+- Sam Kriegman (2265975190), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2265975190
+
+2025-10-29 17:40:10 - Multiple author candidates found for 'Sandip Ghosal':
+- S. Ghosal (2060356239), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/2060356239
+- S. Ghosal (40438813), Papers: 122, Citations: 4877, URL: https://www.semanticscholar.org/author/40438813
+- Sandip Ghosal (2177958668), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2177958668
+- Sandip Ghosal (2265762521), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2265762521
+- Sandip Ghosal (2280746299), Papers: 15, Citations: 7, URL: https://www.semanticscholar.org/author/2280746299
+
+2025-10-29 17:40:11 - Multiple author candidates found for 'Seth Lichter':
+- S. Lichter (40096875), Papers: 59, Citations: 1100, URL: https://www.semanticscholar.org/author/40096875
+- Seth Lichter (2320308556), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2320308556
+
+2025-10-29 17:40:15 - Multiple author candidates found for 'Sridhar Krishnaswamy':
+- S. Krishnaswamy (2251803927), Papers: 2, Citations: 103, URL: https://www.semanticscholar.org/author/2251803927
+- S. Krishnaswamy (2058899323), Papers: 9, Citations: 0, URL: https://www.semanticscholar.org/author/2058899323
+- S. Krishnaswamy (145536874), Papers: 315, Citations: 4430, URL: https://www.semanticscholar.org/author/145536874
+- Sridhar Krishnaswamy (2268316885), Papers: 2, Citations: 15, URL: https://www.semanticscholar.org/author/2268316885
+- Sridhar Krishnaswamy (2178206196), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2178206196
+
+2025-10-29 17:40:17 - Multiple author candidates found for 'Steven Gard':
+- S. Gard (2052671677), Papers: 7, Citations: 1, URL: https://www.semanticscholar.org/author/2052671677
+- S. Gard (145597276), Papers: 88, Citations: 2951, URL: https://www.semanticscholar.org/author/145597276
+- Steven A. Gard (2301770459), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2301770459
+- Steven A. Gard (2346515312), Papers: 2, Citations: 4, URL: https://www.semanticscholar.org/author/2346515312
+- Steven Gard (2340203217), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2340203217
+
+2025-10-29 17:40:18 - Multiple author candidates found for 'Tao Sun':
+- Taotao Sun (2087036736), Papers: 8, Citations: 87, URL: https://www.semanticscholar.org/author/2087036736
+- Tao Sun (1647200194), Papers: 48, Citations: 514, URL: https://www.semanticscholar.org/author/1647200194
+- Sun Tao-tao (30955576), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/30955576
+- S. Tao (47478043), Papers: 8, Citations: 11, URL: https://www.semanticscholar.org/author/47478043
+- T. Sun (134810878), Papers: 24, Citations: 546, URL: https://www.semanticscholar.org/author/134810878
+
+2025-10-29 17:40:19 - Multiple author candidates found for 'Todd Murphey':
+- T. Murphey (2750574), Papers: 263, Citations: 3928, URL: https://www.semanticscholar.org/author/2750574
+- T. Murphey (2067334433), Papers: 5, Citations: 38, URL: https://www.semanticscholar.org/author/2067334433
+- Todd D. Murphey (2274004889), Papers: 13, Citations: 27, URL: https://www.semanticscholar.org/author/2274004889
+- Todd Murphey (2290010956), Papers: 6, Citations: 15, URL: https://www.semanticscholar.org/author/2290010956
+- Todd Murphey (2067334429), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/2067334429
+
+2025-10-29 17:40:20 - Multiple author candidates found for 'Wei Chen':
+- W. Chen (2154939698), Papers: 4, Citations: 298, URL: https://www.semanticscholar.org/author/2154939698
+- Wei Chen (2154939848), Papers: 22, Citations: 424, URL: https://www.semanticscholar.org/author/2154939848
+- Wei Chen (145921144), Papers: 349, Citations: 18519, URL: https://www.semanticscholar.org/author/145921144
+- Wei Chen (2154939886), Papers: 34, Citations: 398, URL: https://www.semanticscholar.org/author/2154939886
+- W. Chen (2154941585), Papers: 4, Citations: 12, URL: https://www.semanticscholar.org/author/2154941585
+
+2025-10-29 17:40:22 - Multiple author candidates found for 'Wing Liu':
+- Wing Kam Liu (152450400), Papers: 630, Citations: 44681, URL: https://www.semanticscholar.org/author/152450400
+- W. Liu (2109328433), Papers: 1, Citations: 1, URL: https://www.semanticscholar.org/author/2109328433
+- Wing-yee Liu (2109328242), Papers: 15, Citations: 413, URL: https://www.semanticscholar.org/author/2109328242
+- Wing-keung Liu (32127982), Papers: 26, Citations: 943, URL: https://www.semanticscholar.org/author/32127982
+- Wing-sun Liu (97829460), Papers: 41, Citations: 182, URL: https://www.semanticscholar.org/author/97829460
+
+2025-10-29 17:40:23 - Multiple author candidates found for 'Yip-Wah Chung':
+- Y. Chung (98106798), Papers: 284, Citations: 7738, URL: https://www.semanticscholar.org/author/98106798
+- Yip-Wah Chung (2237440100), Papers: 2, Citations: 20, URL: https://www.semanticscholar.org/author/2237440100
+- Y. Chung (2114033666), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2114033666
+- Yip-Wah Chung (2256318437), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2256318437
+- Yip-Wah-Chung (1879243422), Papers: 2, Citations: 9, URL: https://www.semanticscholar.org/author/1879243422
+
+2025-10-29 17:40:24 - Multiple author candidates found for 'Yonggang Huang':
+- Yonggang Huang (92250713), Papers: 98, Citations: 6397, URL: https://www.semanticscholar.org/author/92250713
+- Yonggang Huang (22009881), Papers: 239, Citations: 16851, URL: https://www.semanticscholar.org/author/22009881
+- Y. Huang (93481377), Papers: 4, Citations: 1, URL: https://www.semanticscholar.org/author/93481377
+- Yong Huang (2182662280), Papers: 3, Citations: 46, URL: https://www.semanticscholar.org/author/2182662280
+- Yong‐Gui Huang (92250686), Papers: 3, Citations: 134, URL: https://www.semanticscholar.org/author/92250686
+
+2025-10-29 17:40:25 - Multiple author candidates found for 'Zdeněk Bažant':
+- Bažant Zdeněk (2080666631), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2080666631
+- Z. Bažant (3064591), Papers: 1122, Citations: 64200, URL: https://www.semanticscholar.org/author/3064591
+- Zdeněk P Bažant (115700367), Papers: 5, Citations: 0, URL: https://www.semanticscholar.org/author/115700367
+- Zdeněk P. Bažant (2060242174), Papers: 3, Citations: 97, URL: https://www.semanticscholar.org/author/2060242174
+- Zdeněk P. Bažant (2287696865), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2287696865
+
