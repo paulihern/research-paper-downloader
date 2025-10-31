@@ -1,7 +1,9 @@
 # modules/indexer.py
+import re
 import json
 import time
 from pathlib import Path
+from collections import Counter
 from . import config
 from .scholar_client import ScholarClient
 
@@ -47,6 +49,126 @@ class ScholarIndexer:
         self.db_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # ---------- Core Helpers ----------
+    def resolve_author_id_via_papers(self, name, papers, max_papers=5):
+        """
+        Try to find a stable authorId by looking up up to `max_papers` known paper titles.
+        Returns the most frequent matching authorId across papers.
+
+        Matching heuristic:
+          - normalize names (lowercase, remove extra whitespace, remove punctuation)
+          - compare last names exactly
+          - then consider first-name initials or full-first-name presence as match:
+              * first initials equal (e.g. "N." vs "Nikhil")
+              * first token of scraped name appears in candidate name
+              * candidate contains all initials from the scraped name (N C Admal -> N.C. Admal)
+        """
+        def name_parts(raw):
+            """Return a dict with normalized last, first token, initials list."""
+            if not raw:
+                return {"last": "", "first": "", "initials": []}
+            s = raw.replace("\u00a0", " ")  # NBSP
+            s = s.strip()
+            # If "Last, First ..." format, flip to "First Last"
+            if "," in s:
+                parts = [p.strip() for p in s.split(",") if p.strip()]
+                if len(parts) >= 2:
+                    s = parts[1] + " " + parts[0]
+            # remove parentheses, quotes, extra punctuation except spaces and dots (keep dots for initials)
+            s_clean = re.sub(r"[()\"'’„”“\[\]\-:;]", " ", s)
+            s_clean = re.sub(r"\s+", " ", s_clean).strip()
+            tokens = [t for t in re.split(r"[,\s]+", s_clean) if t]
+            tokens = [t.strip(".") for t in tokens]  # remove trailing dots from initials/tokens
+            if not tokens:
+                return {"last": "", "first": "", "initials": []}
+            last = tokens[-1].lower()
+            first = tokens[0].lower()
+            initials = [t[0].lower() for t in tokens if t]  # use first char of each token
+            return {"last": last, "first": first, "initials": initials, "raw": s_clean.lower()}
+
+        def name_matches(candidate_name, target_name):
+            """
+            Return True if candidate_name (from API) plausibly refers to target_name (scraped professor).
+            """
+            cand = name_parts(candidate_name)
+            targ = name_parts(target_name)
+
+            if not cand["last"] or not targ["last"]:
+                return False
+
+            # Last name must match exactly
+            if cand["last"] != targ["last"]:
+                return False
+
+            # If exact raw substring match (e.g. full name present), accept
+            if targ["raw"] in cand["raw"] or cand["raw"] in targ["raw"]:
+                return True
+
+            # Check first-initial match
+            # e.g. target initials ['n','c'] and candidate initials ['n'] -> consider match
+            if cand["initials"] and targ["initials"]:
+                if cand["initials"][0] == targ["initials"][0]:
+                    return True
+
+            # Check if candidate contains the full first token of target:
+            # target first = 'nikhil' candidate raw might be 'n admal' -> first won't be present;
+            # but if candidate has 'nikhil admal' => matches above.
+            if targ["first"] and targ["first"] in cand["raw"]:
+                return True
+
+            # Check if candidate initials include target's first initial
+            if targ["initials"] and targ["initials"][0] in cand["initials"]:
+                return True
+
+            # Fallback: if candidate has only initial + last and target has same last, accept
+            # (This helps match "N. Admal" with "Nikhil Admal")
+            if len(cand["initials"]) == 1 and cand["raw"].startswith(cand["initials"][0]) and cand["last"] == targ["last"]:
+                return True
+
+            return False
+
+        name_lower = name  # keep original for passing to matching helper
+        author_hits = Counter()
+
+        sample_papers = (papers or [])[:max_papers]
+
+        for paper in sample_papers:
+            title = paper.get("title")
+            if not title:
+                continue
+
+            print(f"    Searching paper: {title[:80]}...")
+            try:
+                results = self.client.search_papers(title, limit=1, fields="title,authors,year,url,paperId")
+            except Exception as e:
+                print(f"      ⚠️ Error fetching '{title}': {e}")
+                continue
+
+            if not results:
+                print("      No results found.")
+                continue
+
+            # Look for a matching author in any result
+            for r in results:
+                for a in r.get("authors", []):
+                    if not isinstance(a, dict):
+                        continue
+                    cand_name = a.get("name", "")
+                    cand_id = a.get("authorId")
+                    if not cand_name or not cand_id:
+                        continue
+                    if name_matches(cand_name, name_lower):
+                        author_hits[cand_id] += 1
+                        print(f"      Matched candidate author '{cand_name}' -> {cand_id}")
+
+        if not author_hits:
+            print(f"    ❌ No authorId found for {name}")
+            return None
+
+        best_id, count = author_hits.most_common(1)[0]
+        print(f"    ✅ Found authorId {best_id} for {name} (matched {count} paper(s))")
+        return best_id
+
+
 
     def resolve_author_id(self, name, uni=None, dept=None, db=None):
         """Try to find or reuse an authorId for a given professor name."""
@@ -160,11 +282,13 @@ class ScholarIndexer:
         total = 0
         for uni, depts in hier.items():
             for dept, names in depts.items():
-                for name in names:
+                for name, info in names.items():
+                    papers = info.get("papers", [])
+
                     total += 1
                     print(f"\nProcessing {name}  ({uni} / {dept})")
 
-                    author_id = self.resolve_author_id(name, uni, dept, db)
+                    author_id = self.resolve_author_id_via_papers(name, papers) or self.resolve_author_id(name, uni, dept, db)
                     if not author_id:
                         print(f"  Skipping {name} — no valid authorId found.")
                         continue

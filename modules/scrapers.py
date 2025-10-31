@@ -95,7 +95,7 @@ class FacultyScraper:
         print("\n✅ Done updating UIUC professor papers.")
 
     def _scrape_uiuc_professor_papers(self, profile_url):
-        """Scrape one UIUC professor's profile page for papers (handles linked + unlinked)."""
+        """Scrape all <li> papers in the 'Selected Articles' section."""
         try:
             r = self.session.get(profile_url, timeout=30)
             r.raise_for_status()
@@ -106,7 +106,7 @@ class FacultyScraper:
         soup = BeautifulSoup(r.content, "html.parser")
         papers = []
 
-        # Find section header — can be "Selected Articles", "Selected Articles in Journals", etc.
+        # Find the section
         section = soup.find("h2", string=lambda t: t and "Selected Article" in t)
         if not section:
             print(f"  ℹ️ No 'Selected Articles' section on {profile_url}")
@@ -114,43 +114,91 @@ class FacultyScraper:
 
         ul = section.find_next("ul")
         if not ul:
-            print(f"  ℹ️ No <ul> found after section on {profile_url}")
+            print(f"  ℹ️ No <ul> after section on {profile_url}")
             return papers
 
         for li in ul.find_all("li"):
             a_tag = li.find("a", href=True)
-            full_text = li.get_text(" ", strip=True)
             link = a_tag["href"].strip() if a_tag else None
             if link and link.startswith("/"):
                 link = f"https://mechse.illinois.edu{link}"
 
-            title = self._extract_paper_title(full_text)
+            # Pass the <li> tag to extract title (handles aria-label or quotes)
+            title = self._extract_paper_title(li)
+
             if title:
                 papers.append({"title": title, "link": link})
 
         print(f"  🧾 Found {len(papers)} papers on {profile_url}")
         return papers
+
+
+    def _parse_paper_li(self, li):
+        # Extract link if exists
+        a_tag = li.find("a", href=True) if hasattr(li, "find") else None
+        link = a_tag["href"].strip() if a_tag else None
+        if link and link.startswith("/"):
+            link = f"https://mechse.illinois.edu{link}"
+
+        # Extract title
+        title = None
+        if hasattr(li, "get") and li.get("aria-label"):
+            title = self._extract_paper_title(li)
+        else:
+            title = self._extract_paper_title(li.get_text(" ", strip=True) if hasattr(li, "get_text") else str(li))
+
+        if title:
+            return {"title": title, "link": link}
+        return None
+
     
-    def _extract_paper_title(self, citation_text):
+    def _extract_paper_title(self, li_tag):
         """
-        Extract only the paper title from a full citation string.
-        Example:
-        Input:  'O.E. Orsel, J. Noh, ... "Giant non-reciprocity..." Physical Review Letters, 2025.'
-        Output: 'Giant non-reciprocity and gyration through modulation-induced Hatano-Nelson coupling in integrated photonics'
+        Extracts the paper title from a <li> or a string of citation text.
         """
-        # --- Case 1: Quoted title (most common)
-        match = re.search(r"[\"“](.*?)[\"”]", citation_text)
+        import html
+        # If it's a BeautifulSoup tag, try aria-label
+        if hasattr(li_tag, "get"):
+            citation_text = li_tag.get("aria-label") or li_tag.get_text(" ", strip=True)
+        else:
+            citation_text = str(li_tag)
+        citation_text = html.unescape(citation_text)
+        
+        # Step 1: try quoted titles
+        match = re.search(r'["“](.+?)["”](?=[^"”]*$)', citation_text)
+        if match:
+            title = match.group(1).strip()
+            if len(title) > 5:
+                return title
+
+        # Step 2: fallback — remove leading authors
+        text = re.sub(r"^(?:[A-Z]\.[A-Z\.]*\s*[A-Z][a-z]+(?:,| and|\s))+","", citation_text)
+        text = re.split(r"(?:,?\s*\d{4})|(?:,?\s*[A-Z][a-z]+(?:\s[A-Z][a-z]+)*,?)", text)[0]
+        text = re.sub(r"\s+", " ", text).strip()
+
+        return text if len(text) > 5 else None
+
+    def _extract_paper_title_from_citation(self, citation_text):
+        if not citation_text:
+            return None
+
+        import html
+        citation_text = html.unescape(citation_text)  # decode &quot;, &amp;, etc.
+
+        # Step 1: Capture quoted title (curly or straight quotes)
+        match = re.search(r'[“"](.+?)[”"]', citation_text)
         if match:
             return match.group(1).strip()
 
-        # --- Case 2: No quotes → heuristic fallback
-        # Remove author prefixes (initials and commas)
-        text = re.sub(r"^(?:[A-Z]\.[A-Z\.]*\s*[A-Z][a-z]+(?:,| and|\s))+", "", citation_text)
-        # Stop before journal keywords
-        text = re.split(r",\s*(?:[A-Z][a-z]+(?:\s[A-Z][a-z]+)*|\d{4})", text)[0].strip()
-        # Capitalize properly
-        text = re.sub(r"\s+", " ", text)
-        return text if len(text) > 5 else None
+        # Step 2: Remove leading authors (initials + last names)
+        fallback = re.sub(r'^.*?\d{4}\.\s*', '', citation_text)
+
+        # Step 3: Remove trailing journal info if needed
+        fallback = re.split(r'(?:\.\s*[^\.]+\d{4})|(?:,?\s*[A-Z][a-z]+(?:\s[A-Z][a-z]+)*,?\s*\d{1,4})', fallback)[0]
+
+        return fallback.strip() if len(fallback.strip()) > 5 else None
+
+
     
     # ----------------------------------------
     # NORTHWESTERN UNIVERSITY — DIRECTORY

@@ -582,3 +582,81 @@
 - Zdeněk P. Bažant (2060242174), Papers: 3, Citations: 97, URL: https://www.semanticscholar.org/author/2060242174
 - Zdeněk P. Bažant (2287696865), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2287696865
 
+2025-11-01 01:59:17 - Multiple author candidates found for 'Nikhil Chandra  Admal':
+- N. Admal (10090573), Papers: 38, Citations: 633, URL: https://www.semanticscholar.org/author/10090573
+- Admal Nikhil Chandra (114055536), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/114055536
+
+2025-11-01 01:59:19 - Multiple author candidates found for 'Gaurav  Bahl':
+- G. Bahl (2084009350), Papers: 2, Citations: 33, URL: https://www.semanticscholar.org/author/2084009350
+- G. Bahl (1995045), Papers: 138, Citations: 4144, URL: https://www.semanticscholar.org/author/1995045
+- G. Bahl (46774047), Papers: 51, Citations: 477, URL: https://www.semanticscholar.org/author/46774047
+- Gaurav Bahl (2258719099), Papers: 9, Citations: 12, URL: https://www.semanticscholar.org/author/2258719099
+- Gaurav Bahl (2295729791), Papers: 3, Citations: 28, URL: https://www.semanticscholar.org/author/2295729791
+
+2025-11-01 01:59:20 - Multiple author candidates found for 'Joseph  Bentsman':
+- J. Bentsman (2267507409), Papers: 5, Citations: 387, URL: https://www.semanticscholar.org/author/2267507409
+- J. Bentsman (2185953), Papers: 237, Citations: 3686, URL: https://www.semanticscholar.org/author/2185953
+- B. Joseph (153738413), Papers: 1, Citations: 10, URL: https://www.semanticscholar.org/author/153738413
+- Joseph Bentsman (2086101137), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2086101137
+
+2025-11-01 01:59:22 - Multiple author candidates found for 'Craig Bradshaw':
+- C. Bradshaw (2055798203), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2055798203
+- C. Bradshaw (46228655), Papers: 61, Citations: 614, URL: https://www.semanticscholar.org/author/46228655
+- C. Woelfel (133806962), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/133806962
+- Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
+- Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
+
+2025-11-01 01:59:23 - Multiple author candidates found for 'M. Quinn Brewster':
+- M. Brewster (47258804), Papers: 161, Citations: 3315, URL: https://www.semanticscholar.org/author/47258804
+- M. Brewster (72804211), Papers: 14, Citations: 1, URL: https://www.semanticscholar.org/author/72804211
+- M. Q. Brewster (2275670330), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2275670330
+- M. Q. Brewster (2327254805), Papers: 3, Citations: 0, URL: https://www.semanticscholar.org/author/2327254805
+
+2025-11-01 01:59:24 - Multiple author candidates found for 'Lili  Cai':
+- Cai Lili (71502032), Papers: 33, Citations: 16, URL: https://www.semanticscholar.org/author/71502032
+- Li-li Cai (47236933), Papers: 2, Citations: 7, URL: https://www.semanticscholar.org/author/47236933
+- Lili Cai (2290083166), Papers: 3, Citations: 4, URL: https://www.semanticscholar.org/author/2290083166
+- Li-Juan Cai (2112832302), Papers: 3, Citations: 30, URL: https://www.semanticscholar.org/author/2112832302
+- Li-Qiang Cai (102964710), Papers: 5, Citations: 8, URL: https://www.semanticscholar.org/author/102964710
+
+2025-11-01 01:59:25 - Multiple author candidates found for 'Leonardo Chamorro':
+- L. CHAMORRO A. (2251107035), Papers: 2, Citations: 10, URL: https://www.semanticscholar.org/author/2251107035
+- L. Chamorro (4137694), Papers: 271, Citations: 4540, URL: https://www.semanticscholar.org/author/4137694
+- A. Chamorro (40071196), Papers: 4, Citations: 14, URL: https://www.semanticscholar.org/author/40071196
+- Leonardo Miguel Chamorro Anaya (2133111068), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2133111068
+- Leonardo Chamorro (2322156665), Papers: 4, Citations: 50, URL: https://www.semanticscholar.org/author/2322156665
+
+2025-11-01 02:36:37 - Multiple author candidates found for 'Gaurav  Bahl':
+- G. Bahl (2084009350), Papers: 2, Citations: 33, URL: https://www.semanticscholar.org/author/2084009350
+- G. Bahl (1995045), Papers: 138, Citations: 4144, URL: https://www.semanticscholar.org/author/1995045
+- G. Bahl (46774047), Papers: 51, Citations: 477, URL: https://www.semanticscholar.org/author/46774047
+- Gaurav Bahl (2258719099), Papers: 9, Citations: 12, URL: https://www.semanticscholar.org/author/2258719099
+- Gaurav Bahl (2295729791), Papers: 3, Citations: 28, URL: https://www.semanticscholar.org/author/2295729791
+
+2025-11-01 02:44:06 - Multiple author candidates found for 'Gaurav  Bahl':
+- G. Bahl (2084009350), Papers: 2, Citations: 33, URL: https://www.semanticscholar.org/author/2084009350
+- G. Bahl (1995045), Papers: 138, Citations: 4144, URL: https://www.semanticscholar.org/author/1995045
+- G. Bahl (46774047), Papers: 51, Citations: 477, URL: https://www.semanticscholar.org/author/46774047
+- Gaurav Bahl (2258719099), Papers: 9, Citations: 12, URL: https://www.semanticscholar.org/author/2258719099
+- Gaurav Bahl (2295729791), Papers: 3, Citations: 28, URL: https://www.semanticscholar.org/author/2295729791
+
+2025-11-01 02:44:14 - Multiple author candidates found for 'Joseph  Bentsman':
+- J. Bentsman (2267507409), Papers: 5, Citations: 387, URL: https://www.semanticscholar.org/author/2267507409
+- J. Bentsman (2185953), Papers: 237, Citations: 3686, URL: https://www.semanticscholar.org/author/2185953
+- B. Joseph (153738413), Papers: 1, Citations: 10, URL: https://www.semanticscholar.org/author/153738413
+- Joseph Bentsman (2086101137), Papers: 1, Citations: 2, URL: https://www.semanticscholar.org/author/2086101137
+
+2025-11-01 02:44:21 - Multiple author candidates found for 'Craig Bradshaw':
+- C. Bradshaw (2055798203), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2055798203
+- C. Bradshaw (46228655), Papers: 61, Citations: 614, URL: https://www.semanticscholar.org/author/46228655
+- C. Woelfel (133806962), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/133806962
+- Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
+- Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
+
+2025-11-01 02:54:32 - Multiple author candidates found for 'Craig Bradshaw':
+- C. Bradshaw (2055798203), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2055798203
+- C. Bradshaw (46228655), Papers: 61, Citations: 614, URL: https://www.semanticscholar.org/author/46228655
+- C. Woelfel (133806962), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/133806962
+- Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
+- Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
+
