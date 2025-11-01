@@ -660,3 +660,10 @@
 - Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
 - Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
 
+2025-11-01 03:57:06 - Multiple author candidates found for 'Craig Bradshaw':
+- C. Bradshaw (2055798203), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2055798203
+- C. Bradshaw (46228655), Papers: 61, Citations: 614, URL: https://www.semanticscholar.org/author/46228655
+- C. Woelfel (133806962), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/133806962
+- Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
+- Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
+

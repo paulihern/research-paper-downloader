@@ -10,7 +10,7 @@ from .utils import atomic_write_json  # Assuming you have this utility
 S2_BASE = config.S2_BASE  # Use config constant
 
 class RateLimiter:
-    def __init__(self, min_interval: float = 0.3, max_interval: float = 0.8):
+    def __init__(self, min_interval: float = 0.8, max_interval: float = 2):
         """Adaptive rate limiter: starts fast, gently backs off on 429s."""
         self.min_interval = min_interval
         self.max_interval = max_interval
@@ -73,12 +73,12 @@ class ScholarClient:
                     except Exception:
                         retry_after = 0.0
                 wait = max(self.limiter.dynamic_interval, retry_after or 0.3)
-                wait = min(wait, 0.8)  # hard cap at 3s total wait
+                wait = min(wait, 2)  # hard cap at 3s total wait
                 print(f"   waiting {wait:.1f}s before retrying...")
                 time.sleep(wait)
                 continue
             elif status in (500, 502, 503, 504):
-                time.sleep(min(0.8, 0.8 * (i + 1)))  # cap server errors too
+                time.sleep(min(2, 0.8 * (i + 1)))  # cap server errors too
                 continue
             if i < tries - 1:
                 print(f"⚠️ Unexpected status {status}, retrying ({i+1}/{tries})...")
