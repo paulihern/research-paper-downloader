@@ -122,7 +122,7 @@ def fetch_first_paper(author_id: str):
         return None
 
 if __name__ == "__main__":
-    NAME = "Alex Vakakis"
+    NAME = "Nikhil Chandra  Admal"
     candidates = search_author_by_name(NAME)
 
     for c in candidates:

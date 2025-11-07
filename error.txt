@@ -667,3 +667,54 @@
 - Stephen Bradshaw (2269650960), Papers: 5, Citations: 4, URL: https://www.semanticscholar.org/author/2269650960
 - Craig Bradshaw (2377587143), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2377587143
 
+2025-11-03 01:05:47 - Multiple author candidates found for 'Elif  Ertekin':
+- E. Ertekin (4810854), Papers: 204, Citations: 5010, URL: https://www.semanticscholar.org/author/4810854
+- gens Elif Ertekin (2077328774), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2077328774
+- Elif Ertekin (2336411913), Papers: 7, Citations: 5, URL: https://www.semanticscholar.org/author/2336411913
+- Elif Ertekin (2344757902), Papers: 3, Citations: 1, URL: https://www.semanticscholar.org/author/2344757902
+- Elif Ertekin (2077357138), Papers: 5, Citations: 6, URL: https://www.semanticscholar.org/author/2077357138
+
+2025-11-03 01:05:57 - Multiple author candidates found for 'Nazanin  Farjam':
+- Nazanin Farjam (103644296), Papers: 9, Citations: 86, URL: https://www.semanticscholar.org/author/103644296
+- Nazanin Farjam (2302036325), Papers: 3, Citations: 18, URL: https://www.semanticscholar.org/author/2302036325
+- Nazanin Farjam (2302036330), Papers: 4, Citations: 30, URL: https://www.semanticscholar.org/author/2302036330
+
+2025-11-03 01:05:59 - Multiple author candidates found for 'Jie  Feng':
+- Jiewen Feng (119000628), Papers: 4, Citations: 48, URL: https://www.semanticscholar.org/author/119000628
+- Fengke Jie (31195843), Papers: 6, Citations: 7, URL: https://www.semanticscholar.org/author/31195843
+- J. Feng (2000950395), Papers: 3, Citations: 31, URL: https://www.semanticscholar.org/author/2000950395
+- Jie Feng (2109020470), Papers: 28, Citations: 360, URL: https://www.semanticscholar.org/author/2109020470
+- J. Feng (2138546523), Papers: 7, Citations: 104, URL: https://www.semanticscholar.org/author/2138546523
+
+2025-11-03 01:06:13 - Multiple author candidates found for 'Paul  Fischer':
+- P. Fischer (144884194), Papers: 11, Citations: 4, URL: https://www.semanticscholar.org/author/144884194
+- P. Fischer (15241173), Papers: 7, Citations: 38, URL: https://www.semanticscholar.org/author/15241173
+- P. Fischer (2072760939), Papers: 12, Citations: 67, URL: https://www.semanticscholar.org/author/2072760939
+- Paul F. Fischer (2239462699), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/2239462699
+- P. Fischer (2072760652), Papers: 2, Citations: 40, URL: https://www.semanticscholar.org/author/2072760652
+
+2025-11-03 01:07:04 - Multiple author candidates found for 'Jiajun  He':
+- Jia-min He (49264206), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/49264206
+- Jiajun He (2363686178), Papers: 2, Citations: 0, URL: https://www.semanticscholar.org/author/2363686178
+- He Jiajun (67033682), Papers: 10, Citations: 19, URL: https://www.semanticscholar.org/author/67033682
+- Jiajun He (2279069138), Papers: 6, Citations: 2, URL: https://www.semanticscholar.org/author/2279069138
+- Jianyuan He (2216205146), Papers: 2, Citations: 55, URL: https://www.semanticscholar.org/author/2216205146
+
+2025-11-03 01:08:13 - Multiple author candidates found for 'Mariana E. Kersh':
+- M. Kersh (4648221), Papers: 94, Citations: 1118, URL: https://www.semanticscholar.org/author/4648221
+- E. Mariana (146630452), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/146630452
+- M.E. Kersh (2361796928), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2361796928
+- Mariana E. Kersh (2127667898), Papers: 1, Citations: 0, URL: https://www.semanticscholar.org/author/2127667898
+- Mariana E. Kersh (2270849787), Papers: 2, Citations: 1, URL: https://www.semanticscholar.org/author/2270849787
+
+2025-11-03 01:08:21 - Multiple author candidates found for 'Bill King':
+- B. King (1518157635), Papers: 17, Citations: 5, URL: https://www.semanticscholar.org/author/1518157635
+- B. King (40194969), Papers: 27, Citations: 800, URL: https://www.semanticscholar.org/author/40194969
+- W. King (96679506), Papers: 31, Citations: 209, URL: https://www.semanticscholar.org/author/96679506
+- Bill King (47334530), Papers: 11, Citations: 67, URL: https://www.semanticscholar.org/author/47334530
+- Bill E King (2269573622), Papers: 2, Citations: 5, URL: https://www.semanticscholar.org/author/2269573622
+
+2025-11-03 01:08:41 - Multiple author candidates found for 'Callan Luetkemeyer':
+- Callan M. Luetkemeyer (14179696), Papers: 21, Citations: 199, URL: https://www.semanticscholar.org/author/14179696
+- Callan Luetkemeyer (2376754432), Papers: 4, Citations: 0, URL: https://www.semanticscholar.org/author/2376754432
+

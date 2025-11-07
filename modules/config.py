@@ -16,5 +16,3 @@ DEPARTMENTS = {
 }
 # Control request pacing
 MIN_INTERVAL = 1.25  # seconds between API requests
-
-#new comment
