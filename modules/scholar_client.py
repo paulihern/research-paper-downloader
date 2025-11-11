@@ -51,7 +51,7 @@ class ScholarClient:
         self.request_timeout = getattr(config, "REQUEST_TIMEOUT", 45)  # seconds
         self.default_limit = getattr(config, "DEFAULT_PAPER_LIMIT", 80)
 
-    def _retry_get(self, url: str, params: dict = None, tries: int = 10):
+    def _retry_get(self, url: str, params: dict = None, tries: int = 3):
         self.limiter.reset()
         for i in range(tries):
             self.limiter.wait()
@@ -103,6 +103,29 @@ class ScholarClient:
         data = r.json()
         return data.get("data", [])
     
+    def search_single_paper(self, title: str, fields: str = "authors") -> Optional[dict]:
+        """
+        Use Semantic Scholar's /paper/search/match endpoint to fetch a single paper
+        by closest title match. Returns a dict containing the requested fields.
+        Example:
+            result = client.search_single_paper("Attention is All You Need", fields="authors")
+            # result -> {"paperId": "...", "authors": [{"authorId": "...", "name": "..."}]}
+        """
+        url = f"{S2_BASE}/paper/search/match"
+        params = {"query": title, "fields": fields}
+        r = self._retry_get(url, params=params)
+        if not r:
+            return None
+        if r.status_code == 404:
+            print(f"      ⚠️ No title match found for: '{title[:80]}'")
+            return None
+        try:
+            data = r.json()
+            return data["data"][0]
+        except Exception as e:
+            print(f"      ⚠️ Error parsing single paper response for '{title}': {e}")
+            return None
+
     def search_papers(self, query, limit=3, fields=None):
         """
         Search Semantic Scholar for papers matching the title/query.
@@ -124,13 +147,46 @@ class ScholarClient:
         data = r.json()
         return data.get("data", [])
 
+    def bulk_search_papers(self, query: str, fields: str = "paperId,title,authors",
+        limit: int = 1000, token: Optional[str] = None, sort: Optional[str] = None,
+    ) -> Optional[dict]:
+        """
+        Uses Semantic Scholar's /paper/search/bulk endpoint for batch queries.
+        Returns a dict containing { 'total': int, 'data': [...], 'token': str | None }.
+        """
+        url = f"{S2_BASE}/paper/search/bulk"
+        params = {
+            "query": query,
+            "fields": fields,
+            "limit": limit,
+        }
+        if token:
+            params["token"] = token
+        if sort:
+            params["sort"] = sort
+
+        r = self._retry_get(url, params=params)
+        if not r:
+            return None
+
+        try:
+            data = r.json()
+            if "data" not in data:
+                print(f"⚠️ Unexpected bulk response: {data}")
+                return None
+            return data
+        except Exception as e:
+            print(f"⚠️ Error parsing bulk search for query '{query[:80]}': {e}")
+            return None
+
+
     def fetch_author_papers(self, author_id: str, limit: int = None) -> List[dict]:
         limit = limit or self.default_limit
         url = f"{S2_BASE}/author/{author_id}/papers"
         params = {
             "limit": limit,
             "fields": ",".join([
-                "paperId", "title", "year", "citationCount",
+                "paperId", "title", "year", "publicationDate", "citationCount",
                 "openAccessPdf", "isOpenAccess", "url",
                 "externalIds", "venue", "publicationTypes",
                 "authors"
@@ -175,6 +231,7 @@ class ScholarClient:
                 "paperId": paper.get("paperId"),
                 "title": paper.get("title"),
                 "year": paper.get("year") or 0,
+                "publicationDate": paper.get("publicationDate"),
                 "citations": paper.get("citationCount", 0) or 0,
                 "pdf_url": pdf,
                 "is_open_access": paper.get("isOpenAccess"),

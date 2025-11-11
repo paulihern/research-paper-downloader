@@ -1,0 +1,11 @@
+#This file is a collection of paper title element examples for 
+# optimizing the regex term/logic in extract_title function in scapers
+
+Northwestern:
+
+
+
+
+
+
+UIUC:

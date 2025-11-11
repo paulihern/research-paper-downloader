@@ -7,6 +7,11 @@ from collections import Counter
 from . import config
 from .scholar_client import ScholarClient
 
+def chunks(seq, size):
+    """Yield successive fixed-size chunks from a list."""
+    for i in range(0, len(seq), size):
+        yield seq[i:i + size]
+
 
 class ScholarIndexer:
     """
@@ -35,13 +40,16 @@ class ScholarIndexer:
         return {}
 
     def _load_db(self):
-        """Load database.json"""
         if self.db_path.exists():
             try:
-                return json.loads(self.db_path.read_text(encoding="utf-8"))
+                db = json.loads(self.db_path.read_text(encoding="utf-8"))
+                if "name_to_authorIds" not in db:
+                    db["name_to_authorIds"] = {}
+                return db
             except Exception:
-                return {"professors": {}, "papers": {}}
-        return {"professors": {}, "papers": {}}
+                return {"name_to_authorIds": {}, "professors": {}, "papers": {}}
+        return {"name_to_authorIds": {}, "professors": {}, "papers": {}}
+
 
     def _save_db(self, data):
         """Write database.json"""
@@ -63,110 +71,85 @@ class ScholarIndexer:
               * candidate contains all initials from the scraped name (N C Admal -> N.C. Admal)
         """
         def name_parts(raw):
-            """Return a dict with normalized last, first token, initials list."""
+            """Return a dict with normalized last name."""
             if not raw:
-                return {"last": "", "first": "", "initials": []}
-            s = raw.replace("\u00a0", " ")  # NBSP
-            s = s.strip()
-            # If "Last, First ..." format, flip to "First Last"
-            if "," in s:
+                return {"last": ""}
+            s = raw.replace("\u00a0", " ").strip()
+            if "," in s:  # flip "Last, First" -> "First Last"
                 parts = [p.strip() for p in s.split(",") if p.strip()]
                 if len(parts) >= 2:
                     s = parts[1] + " " + parts[0]
-            # remove parentheses, quotes, extra punctuation except spaces and dots (keep dots for initials)
+            # remove extra punctuation
             s_clean = re.sub(r"[()\"'’„”“\[\]\-:;]", " ", s)
             s_clean = re.sub(r"\s+", " ", s_clean).strip()
             tokens = [t for t in re.split(r"[,\s]+", s_clean) if t]
-            tokens = [t.strip(".") for t in tokens]  # remove trailing dots from initials/tokens
-            if not tokens:
-                return {"last": "", "first": "", "initials": []}
-            last = tokens[-1].lower()
-            first = tokens[0].lower()
-            initials = [t[0].lower() for t in tokens if t]  # use first char of each token
-            return {"last": last, "first": first, "initials": initials, "raw": s_clean.lower()}
+            last = tokens[-1].lower() if tokens else ""
+            return {"last": last}
 
         def name_matches(candidate_name, target_name):
-            """
-            Return True if candidate_name (from API) plausibly refers to target_name (scraped professor).
-            """
+            """Match only by last name."""
             cand = name_parts(candidate_name)
             targ = name_parts(target_name)
 
             if not cand["last"] or not targ["last"]:
                 return False
 
-            # Last name must match exactly
-            if cand["last"] != targ["last"]:
-                return False
-
-            # If exact raw substring match (e.g. full name present), accept
-            if targ["raw"] in cand["raw"] or cand["raw"] in targ["raw"]:
-                return True
-
-            # Check first-initial match
-            # e.g. target initials ['n','c'] and candidate initials ['n'] -> consider match
-            if cand["initials"] and targ["initials"]:
-                if cand["initials"][0] == targ["initials"][0]:
-                    return True
-
-            # Check if candidate contains the full first token of target:
-            # target first = 'nikhil' candidate raw might be 'n admal' -> first won't be present;
-            # but if candidate has 'nikhil admal' => matches above.
-            if targ["first"] and targ["first"] in cand["raw"]:
-                return True
-
-            # Check if candidate initials include target's first initial
-            if targ["initials"] and targ["initials"][0] in cand["initials"]:
-                return True
-
-            # Fallback: if candidate has only initial + last and target has same last, accept
-            # (This helps match "N. Admal" with "Nikhil Admal")
-            if len(cand["initials"]) == 1 and cand["raw"].startswith(cand["initials"][0]) and cand["last"] == targ["last"]:
-                return True
-
-            return False
-
+            return cand["last"] == targ["last"]
+        
         name_lower = name  # keep original for passing to matching helper
         author_hits = Counter()
 
-        sample_papers = (papers or [])[:max_papers]
+        BULK_CHUNK_SIZE = 10  # adjust to avoid hitting query-length limits
 
-        for paper in sample_papers:
-            title = paper.get("title")
-            if not title:
+        for chunk in chunks(papers, BULK_CHUNK_SIZE):
+            titles_only = [p["title"] for p in chunk if "title" in p and p["title"]]
+            query = " | ".join(f'"{t}"' for t in titles_only)
+            result = self.client.bulk_search_papers(query=query, fields="title,authors")
+
+            if not result or not result.get("data"):
                 continue
 
-            print(f"    Searching paper: {title[:80]}...")
-            try:
-                results = self.client.search_papers(title, limit=1, fields="title,authors,year,url,paperId")
-            except Exception as e:
-                print(f"      ⚠️ Error fetching '{title}': {e}")
-                continue
-
-            if not results:
-                print("      No results found.")
-                continue
-
-            # Look for a matching author in any result
-            for r in results:
-                for a in r.get("authors", []):
-                    if not isinstance(a, dict):
-                        continue
+            for paper in result["data"]:
+                paper_title = paper.get("title", "").lower()
+                authors = paper.get("authors", [])
+                for a in authors:
                     cand_name = a.get("name", "")
                     cand_id = a.get("authorId")
                     if not cand_name or not cand_id:
                         continue
                     if name_matches(cand_name, name_lower):
                         author_hits[cand_id] += 1
-                        print(f"      Matched candidate author '{cand_name}' -> {cand_id}")
+                        print(f"      Match: '{cand_name}' in paper '{paper_title[:60]}'")
+        print("bulk search done")
+
+        # for paper in papers:
+        #     title = paper.get("title")
+        #     if not title:
+        #         continue
+
+        #     print(f"    Searching paper: {title[:80]}...")
+        #     result = self.client.search_single_paper(title, fields="authors")
+        #     if not result:
+        #         print("      No results found.")
+        #         continue
+        #     # Look for a matching author in any result
+        #     for a in result["authors"]:
+        #         cand_name = a.get("name", "")
+        #         cand_id = a.get("authorId")
+        #         if not cand_name or not cand_id:
+        #             continue
+        #         if name_matches(cand_name, name_lower):
+        #             author_hits[cand_id] += 1
+        #             print(f"      Matched candidate author '{cand_name}' -> {cand_id}")
 
         if not author_hits:
             print(f"    ❌ No authorId found for {name}")
             return None
+        
+        sorted_ids = [aid for aid, _ in author_hits.most_common()]
+        print(f"    ✅ Found authorIds {sorted_ids} for {name} (matched across {len(author_hits)} unique IDs)")
 
-        best_id, count = author_hits.most_common(1)[0]
-        print(f"    ✅ Found authorId {best_id} for {name} (matched {count} paper(s))")
-        return best_id
+        return sorted_ids
 
 
 
@@ -245,6 +228,7 @@ class ScholarIndexer:
                 "paperId": pid,
                 "title": p.get("title") or existing.get("title"),
                 "year": p.get("year") or existing.get("year"),
+                "publicationDate": p.get("publicationDate") or existing.get("publicationDate"),
                 "citations": p.get("citations") if p.get("citations") is not None else existing.get("citations"),
                 "pdf_url": p.get("pdf_url") or existing.get("pdf_url"),
                 "url": p.get("url") or existing.get("url"),
@@ -288,13 +272,24 @@ class ScholarIndexer:
                     total += 1
                     print(f"\nProcessing {name}  ({uni} / {dept})")
 
-                    author_id = self.resolve_author_id_via_papers(name, papers) or self.resolve_author_id(name, uni, dept, db)
-                    if not author_id:
+                    author_ids = self.resolve_author_id_via_papers(name, papers)
+                    if not author_ids:
+                        single_id = self.resolve_author_id(name, uni, dept, db)
+                        author_ids = [single_id] if single_id else []
+
+                    if not author_ids:
                         print(f"  Skipping {name} — no valid authorId found.")
                         continue
 
-                    db, paper_ids = self.update_professor_papers(author_id, db, author_name=name)
-                    db = self.upsert_professor(db, author_id, name, uni, dept, paper_ids)
+                    all_paper_ids = set()
+                    for author_id in author_ids:
+                        db, paper_ids = self.update_professor_papers(author_id, db, author_name=name)
+                        db = self.upsert_professor(db, author_id, name, uni, dept, paper_ids)
+                        all_paper_ids.update(paper_ids)
+
+                    if "name_to_authorIds" not in db:
+                        db["name_to_authorIds"] = {}
+                    db["name_to_authorIds"][name] = author_ids
 
                     self._save_db(db)
                     time.sleep(1.0)
