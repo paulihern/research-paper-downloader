@@ -4,17 +4,17 @@ from modules.indexer import ScholarIndexer
 def main():
     # --- STEP 1: Scrape professors ---
     print("\n--- Updating professor list ---")
-    # scraper = FacultyScraper()
+    scraper = FacultyScraper()
     # scraper.update_uiuc_directory()
     # scraper.update_uiuc_professor_papers()
-    #scraper.update_northwestern_directory()
-    #scraper.update_northwestern_professor_papers()
+    scraper.update_northwestern_directory()
+    scraper.update_northwestern_professor_papers()
 
 
     # --- STEP 2: Fetch papers ---
     print("\n--- Updating paper metadata ---")
-    indexer = ScholarIndexer()
-    indexer.update_from_professors_file()
+    # indexer = ScholarIndexer()
+    # indexer.update_from_professors_file()
 
 
 
