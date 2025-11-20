@@ -1,0 +1,86 @@
+Original Input: # UIUC | Status: No ID Found
+Original Input: A. Vakakis | Status: Status: 2041393
+Original Input: Amy Wagoner Johnson | Matched Name: A. W. Wagoner Johnson | Author ID: 8682370
+Original Input: A. Jacobi | Matched Name: C. Jacobi | Author ID: 1822073
+Original Input: William P. King | Matched Name: W. King | Author ID: 33343808
+Original Input: Blake Everett Johnson | Matched Name: B. Johnson | Author ID: 48364822
+Original Input: Brian S. Mercer | Status: 2049503804
+Original Input: Bumsoo Han | Matched Name: B. Han | Author ID: 33542176
+Original Input: C. Ricardo Constante-Amores | Matched Name: C. Constante-Amores | Author ID: 1491039666
+Original Input: Callan Luetkemeyer | Matched Name: Callan M. Luetkemeyer | Author ID: 14179696
+Original Input: Craig Bradshaw | Matched Name: C. Bradshaw | Author ID: 46228655
+Original Input: Elif Ertekin | Matched Name: E. Ertekin | Author ID: 4810854
+Original Input: Elizabeth T. Hsiao-Wecksler | Matched Name: E. Hsiao-Wecksler | Author ID: 1398994764
+Original Input: Gaurav Bahl | Matched Name: G. Bahl | Author ID: 1995045
+Original Input: Harley Johnson | Matched Name: H. Johnson | Author ID: 31316540
+Original Input: Huseyin Sehitoglu | Matched Name: H. Sehitoglu | Author ID: 4163564
+Original Input: Iwona Jasiuk | Matched Name: I. Jasiuk | Author ID: 46343924
+Original Input: Janelle Wharry | Matched Name: J. Wharry | Author ID: 92621606
+Original Input: Jiajun He | Matched Name: Jia He | Author ID: 2153096163
+Original Input: Jie Feng | Matched Name: Jiexiong Feng | Author ID: 83051701
+Original Input: Jorge E. Correa | Matched Name: R. Silva | Author ID: 143735187
+Original Input: Joseph Bentsman | Matched Name: J. Bentsman | Author ID: 2185953
+Original Input: Justin Yim | Matched Name: Justin K. Yim | Author ID: 2152331
+Original Input: Kathryn H Matlack | Matched Name: K. Matlack | Author ID: 39895612
+Original Input: Ke Tang | Matched Name: K. Tang | Author ID: 144994537
+Original Input: Kevin Wise | Matched Name: K. Wise | Author ID: 3096366
+Original Input: Kevin E. Wandke | Status: 100590743
+Original Input: Leonardo Chamorro | Matched Name: L. Chamorro | Author ID: 4137694
+Original Input: Lili Cai | Matched Name: Cai Lili | Author ID: 71502032
+Original Input: M Taher A. Saif | Matched Name: M. Saif | Author ID: 98772879
+Original Input: M. Quinn Brewster | Matched Name: M. Brewster | Author ID: 47258804
+Original Input: Mariana E. Kersh | Matched Name: M. Kersh | Author ID: 4648221
+Original Input: Martin Ostoja-Starzewski | Matched Name: M. Ostoja-Starzewski | Author ID: 1452119473
+Original Input: Mattia Gazzola | Matched Name: M. Gazzola | Author ID: 2597297
+Original Input: Mickey Clemon | Status: 2269346940，2269346930
+Original Input: naira hovakimyan | Matched Name: N. Hovakimyan | Author ID: 2130392
+Original Input: Nenad Miljkovic | Matched Name: N. Miljkovic | Author ID: 5089466
+Original Input: Nick G. Glumac | Matched Name: N. Glumac | Author ID: 4433619
+Original Input: Nikhil Chandra Admal | Matched Name: N. Admal | Author ID: 10090573
+Original Input: Paul Fischer | Matched Name: P. Fischer | Author ID: 48319080
+Original Input: Petros Sofronis | Matched Name: P. Sofronis | Author ID: 15494645
+Original Input: Placid Ferreira | Matched Name: P. Ferreira | Author ID: 145577383
+Original Input: Prashant Mehta | Matched Name: P. Mehta | Author ID: 1773940
+Original Input: Randy H. Ewoldt | Matched Name: R. Ewoldt | Author ID: 143620353
+Original Input: Sameh Tawfick | Matched Name: S. Tawfick | Author ID: 4142554
+Original Input: Sanjiv Sinha | Matched Name: S. Sinha | Author ID: 10220902
+Original Input: Sascha Hilgenfeldt | Matched Name: S. Hilgenfeldt | Author ID: 3018257
+Original Input: Seid Koric | Matched Name: S. Koric | Author ID: 2163125
+Original Input: Shelby B. Hutchens | Matched Name: S. B. Hutchens | Author ID: 9831923
+Original Input: Sophie Wang | Matched Name: Sophie S. W. Wang | Author ID: 50695088
+Original Input: Srinivasa Salapaka | Matched Name: S. Salapaka | Author ID: 1770735
+Original Input: # NU | Status: No ID Found
+Original Input: Bahador Bahmani | Matched Name: B. Bahmani | Author ID: 101566577
+Original Input: Brenna Argall | Matched Name: B. Argall | Author ID: 1836885
+Original Input: Cheng Sun | Matched Name: Cheng Sun | Author ID: 102245864
+Original Input: Elizabeth M Gerber | Matched Name: E. Gerber | Author ID: 145003123
+Original Input: Gianluca Cusatis | Matched Name: G. Cusatis | Author ID: 8858860
+Original Input: Greg Wagner | Matched Name: G. Wagner | Author ID: 91998567
+Original Input: Horacio Espinosa | Matched Name: H. Espinosa | Author ID: 144854104
+Original Input: J. Edward Colgate | Matched Name: J. Colgate | Author ID: 1700106
+Original Input: Jennifer B. Dunn | Matched Name: J. Dunn | Author ID: 144552733
+Original Input: John A. Rogers | Matched Name: J. Rogers | Author ID: 144254966
+Original Input: John Rudnicki | Matched Name: J. Rudnicki | Author ID: 17695609
+Original Input: Jose Pons | Matched Name: J. Pons | Author ID: 47319717
+Original Input: Julio M. Ottino | Matched Name: J. Ottino | Author ID: 2556722
+Original Input: Junsoo Kim | Matched Name: Jun-Soo Kim | Author ID: 2109984862
+Original Input: Kevin Lynch | Matched Name: K. Lynch | Author ID: 35114532
+Original Input: Kornel Ehmann | Matched Name: K. Ehmann | Author ID: 50282317
+Original Input: Malcolm A MacIver | Matched Name: M. A. MacIver | Author ID: 39884769
+Original Input: Manohar Kulkarni | Matched Name: M. Kulkarni | Author ID: 91408184
+Original Input: Matthew J Major | Matched Name: M. Major | Author ID: 6270873
+Original Input: Michael Peshkin | Matched Name: M. Peshkin | Author ID: 1789986
+Original Input: Mitra J. Hartmann | Matched Name: M. Hartmann | Author ID: 46851258
+Original Input: Neelesh A. Patankar | Matched Name: N. Patankar | Author ID: 1696499
+Original Input: Oluwaseyi Balogun | Matched Name: O. Balogun | Author ID: 144740713
+Original Input: Ping Guo | Matched Name: Ping Guo | Author ID: 144264373
+Original Input: Q. Jane Wang | Matched Name: Q. Wang | Author ID: 25710262
+Original Input: Ryan L. Truby | Matched Name: R. Truby | Author ID: 5791508
+Original Input: Sandip Ghosal | Matched Name: S. Ghosal | Author ID: 40438813
+Original Input: Seth Lichter | Matched Name: S. Lichter | Author ID: 40096875
+Original Input: Sinan Keten | Matched Name: S. Keten | Author ID: 4886848
+Original Input: Sridhar Krishnaswamy | Matched Name: S. Krishnaswamy | Author ID: 145536874
+Original Input: Steven Gard | Matched Name: S. Gard | Author ID: 145597276
+Original Input: Tao Sun, T. Sun | Matched Name: T. Sun | Author ID: 122492681
+Original Input: Todd D Murphey | Matched Name: T. Murphey | Author ID: 2750574
+Original Input: Yip-Wah Chung | Matched Name: Y. Chung | Author ID: 98106798
