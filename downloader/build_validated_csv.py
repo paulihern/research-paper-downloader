@@ -1,8 +1,8 @@
 import csv
 
-REVIEWED_FILE = "reviewed.txt"
-NONEED_FILE = "noneed_review.txt"
-OUTPUT_FILE = "validated_ids.csv"
+REVIEWED_FILE = "downloader/reviewed.txt"
+NONEED_FILE = "downloader/noneed_review.txt"
+OUTPUT_FILE = "downloader/validated_ids.csv"
 
 
 def parse_reviewed(path: str):
@@ -74,9 +74,10 @@ def parse_reviewed(path: str):
 def parse_noneed(path: str):
     """
     Parse noneed_review.txt into a list of dicts:
-    { "Original_Name": ..., "Author_ID": ..., "Institution": "" }
+    { "Original_Name": ..., "Author_ID": ..., "Institution": ... }
 
-    There is no institution info in this file, so Institution is left empty.
+    This version splits the line by '|' and extracts each field cleanly,
+    so Institution becomes exactly 'NU' or 'UIUC' (not including extra text).
     """
     records = []
 
@@ -86,25 +87,36 @@ def parse_noneed(path: str):
             if not line.startswith("Original Input:"):
                 continue
 
-            try:
-                left, right = line.split("|", 1)
-            except ValueError:
+            # Split the whole line into parts: "Original Input: ...", "Institution: ...", etc.
+            parts = [p.strip() for p in line.split("|")]
+
+            name = None
+            author_id = None
+            institution = ""
+
+            for part in parts:
+                if part.startswith("Original Input:"):
+                    # Original Input: NAME
+                    name = part.replace("Original Input:", "").strip()
+                elif part.startswith("Author ID:"):
+                    # Author ID: 123456
+                    author_id = part.replace("Author ID:", "").strip()
+                elif part.startswith("Institution:"):
+                    # Institution: NU / UIUC
+                    institution = part.replace("Institution:", "").strip()
+
+            # Skip malformed lines
+            if not name or not author_id:
                 continue
-
-            name = left.replace("Original Input:", "").strip()
-
-            if "Author ID:" not in right:
-                continue
-
-            author_id = right.split("Author ID:", 1)[1].strip()
 
             records.append({
                 "Original_Name": name,
                 "Author_ID": author_id,
-                "Institution": ""  # unknown here; can be filled later
+                "Institution": institution
             })
 
     return records
+
 
 
 def main():
@@ -122,7 +134,10 @@ def main():
     for rec in noneed_records:
         if rec["Original_Name"] not in reviewed_names:
             merged.append(rec)
-
+    
+    order_map = {"NU": 0, "UIUC": 1, "": 2}
+    merged.sort(key=lambda r: (order_map.get(r["Institution"], 99), r["Original_Name"]))
+    
     # 4. Write the final CSV
     fieldnames = ["Original_Name", "Author_ID", "Institution"]
     with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:

@@ -8,7 +8,7 @@ S2_API_KEY = "m5SlWgZXJL5kSt8GWBseX2yjtXDd6JA8a6unRcox"
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
 
 # Input: list of professor names (one per line)
-PROFESSOR_LIST_FILE = "professor_names.txt"
+PROFESSOR_LIST_FILE = "downloader/professor_names.txt"
 
 # Output: names that require manual review (mismatched or no ID found)
 MANUAL_REVIEW_FILE = "need_review.txt"
@@ -72,12 +72,28 @@ def main():
     Reads the professor list, processes each name, and outputs two lists:
       - need_review.txt: names that require manual review
       - noneed_review.txt: names that look safely matched
+    现在会同时带上 Institution 信息。
     """
 
-    # 1. Read professor names
+    # 1. Read professor names + institution
+    professors = []
+    current_institution = None
+
     try:
         with open(PROFESSOR_LIST_FILE, "r", encoding="utf-8") as f:
-            prof_names = [line.strip() for line in f if line.strip()]
+            for raw_line in f:
+                line = raw_line.strip()
+                if not line:
+                    continue
+
+                # 这一行是 "# UIUC" / "# NU" 之类的：更新当前 institution
+                if line.startswith("#"):
+                    current_institution = line[1:].strip()
+                    continue
+
+                # 普通名字行
+                name = line
+                professors.append((name, current_institution))
     except FileNotFoundError:
         print(f"Error: Input file {PROFESSOR_LIST_FILE} not found. Please create it and list one name per line.")
         return
@@ -85,11 +101,11 @@ def main():
     need_review_lines = []
     auto_ok_lines = []
 
-    print(f"Starting processing for {len(prof_names)} professors...")
+    print(f"Starting processing for {len(professors)} professors...")
 
     # 2. Iterate over all names
-    for name in prof_names:
-        print(f"-> Searching for professor: {name}...")
+    for name, institution in professors:
+        print(f"-> Searching for professor: {name} ({institution})...")
 
         author_id, matched_name = find_author_id(name)
 
@@ -100,7 +116,10 @@ def main():
 
             if norm_input == norm_match:
                 # Names match well -> accept automatically
-                line = f"Original Input: {name} | Matched Name: {matched_name} | Author ID: {author_id}"
+                line = (
+                    f"Original Input: {name} | Institution: {institution} | "
+                    f"Matched Name: {matched_name} | Author ID: {author_id}"
+                )
                 auto_ok_lines.append(line)
                 print(f"   ✅ Auto match accepted: {matched_name} (ID: {author_id})")
             else:
@@ -109,12 +128,17 @@ def main():
                     f"   ⚠️ Potential mismatch: matched '{matched_name}' (ID: {author_id}), "
                     f"original '{name}'. Sending to manual review."
                 )
-                line = f"Original Input: {name} | Matched Name: {matched_name} | Author ID: {author_id}"
+                line = (
+                    f"Original Input: {name} | Institution: {institution} | "
+                    f"Matched Name: {matched_name} | Author ID: {author_id}"
+                )
                 need_review_lines.append(line)
         else:
             # No candidate found at all
             print(f"   ❌ No matching Author ID found for: {name}")
-            need_review_lines.append(f"Original Input: {name} | Status: No ID Found")
+            need_review_lines.append(
+                f"Original Input: {name} | Institution: {institution} | Status: No ID Found"
+            )
 
         # Respect API rate limits (e.g., 1 QPS)
         sleep(1)

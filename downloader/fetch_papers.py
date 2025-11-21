@@ -7,8 +7,8 @@ from time import sleep
 S2_API_KEY = "m5SlWgZXJL5kSt8GWBseX2yjtXDd6JA8a6unRcox"
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
 
-VALIDATED_ID_FILE = "validated_ids.csv"          
-SUCCESS_OUTPUT_FILE = "pdf_downloader.csv"       
+VALIDATED_ID_FILE = "downloader/validated_ids.csv"          
+SUCCESS_OUTPUT_FILE = "downloader/pdf_downloader.csv"       
 
 HEADERS = {
     "x-api-key": S2_API_KEY,
@@ -154,7 +154,7 @@ def main():
                 "Year": paper.get("year", ""),
                 "Citation Count": paper.get("citationCount", 0),
                 "Semantic Scholar URL": paper.get("url", "N/A"),
-                "pdf_Link": choose_best_link(paper)
+                "Final Link": choose_best_link(paper)
             })
 
         for paper in most_recent:
