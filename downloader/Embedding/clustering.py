@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from sklearn.cluster import KMeans
 
 embeddings = np.load("paper_embeddings_roberta.npy")
@@ -27,6 +28,20 @@ np.save("cluster_labels_k10.npy", cluster_labels)
 
 print("Clustering done.")
 print("Cluster counts:", np.bincount(cluster_labels))
+
+
+INPUT_CSV = "pdf_with_abstracts_final.csv"         
+OUTPUT_CSV = "pdf_with_abstracts_final_k10.csv"
+
+df = pd.read_csv(INPUT_CSV, encoding="utf-8-sig")
+
+assert len(df) == len(cluster_labels), f"Row mismatch: df={len(df)} vs labels={len(cluster_labels)}"
+
+df["cluster_id"] = cluster_labels
+df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
+
+print(f"Saved CSV with cluster_id: {OUTPUT_CSV}")
+
 
 import matplotlib.pyplot as plt
 

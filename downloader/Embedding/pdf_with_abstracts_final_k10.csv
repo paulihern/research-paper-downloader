@@ -1,0 +1,106 @@
+﻿,,,,,,,,,Professor,A,B,C,D,E,MAXCOUNT,PrimaryFactory,Second MAX,Second Factory
+,,,,,,,,,Thomas Golecki,6,4,,,10,10,E,6,A
+COUNT:Factory,Factory,,,,,,,,A. Jacobi,9,1,,1,9,9,A,9,A
+Professor,A,B,C,D,E,Excluded,总计,,Nick G. Glumac,3,6,1,2,8,8,E,6,B
+A. Jacobi,9,1,,1,9,,20,,Malcolm A MacIver,4,5,3,,8,8,E,5,B
+A. Vakakis,10,6,2,,2,,20,,Elizabeth T. Hsiao-Wecksler,1,6,4,2,7,7,E,6,B
+Amy Wagoner Johnson,9,4,4,2,1,,20,,Kevin Wise,6,6,1,,7,7,E,6,A
+Arne J. Pearlstein,6,3,10,,1,,20,,Kellie M. Halloran,6,4,2,2,6,6,A,6,A
+Bahador Bahmani,8,9,,,3,,20,,Ryan L. Truby,3,7,4,,6,7,B,6,E
+Blake Everett Johnson,2,4,,,4,,10,,Seth Lichter,5,7,2,,6,7,B,6,E
+Brenna Argall,7,11,,,2,,20,,Huseyin Sehitoglu,10,2,2,,6,10,A,6,E
+Brian S. Mercer,12,,2,6,,,20,,Petros Sofronis,12,1,1,,6,12,A,6,E
+Bumsoo Han,10,4,2,1,3,,20,,Sam Kriegman,,14,,,6,14,B,6,E
+C. Ricardo Constante-Amores,,4,12,,4,,20,,Paul Fischer,7,2,1,5,5,7,A,5,D
+Callan Luetkemeyer,15,1,1,1,2,,20,,Gaurav Bahl,1,2,12,,5,12,C,5,E
+Cheng Sun,5,3,8,1,3,,20,,Shelby B. Hutchens,9,3,3,,5,9,A,5,E
+Craig Bradshaw,18,,,,2,,20,,Matthew West,4,10,1,,5,10,B,5,E
+Elif Ertekin,7,,9,2,2,,20,,Elizabeth M Gerber,5,10,,,5,10,B,5,A
+Elizabeth M Gerber,5,10,,,5,,20,,Jiajun He,4,9,,,5,9,B,5,E
+Elizabeth T. Hsiao-Wecksler,1,6,4,2,7,,20,,Lili Cai,13,2,,,5,13,A,5,E
+Gaurav Bahl,1,2,12,,5,,20,,Wei Chen,4,1,,11,4,11,D,4,A
+Gianluca Cusatis,11,,5,,3,1,20,,Steven Gard,9,2,2,3,4,9,A,4,E
+Greg Wagner,12,4,2,,2,,20,,Mariana E. Kersh,5,1,8,2,4,8,C,5,A
+Harley Johnson,4,3,8,1,4,,20,,John Rudnicki,5,2,7,2,4,7,C,5,A
+Horacio Espinosa,12,2,4,,2,,20,,Julio M. Ottino,2,5,8,1,4,8,C,5,B
+Huseyin Sehitoglu,10,2,2,,6,,20,,Harley Johnson,4,3,8,1,4,8,C,4,A
+Iwona Jasiuk,9,3,6,,2,,20,,Jennifer B. Dunn,4,5,6,1,4,6,C,5,B
+J. Edward Colgate,,13,3,,4,,20,,Mattia Gazzola,2,9,4,1,4,9,B,4,C
+Janelle Wharry,15,,4,,1,,20,,C. Ricardo Constante-Amores,,4,12,,4,12,C,4,B
+Jennifer B. Dunn,4,5,6,1,4,,20,,John A. Rogers,7,3,6,,4,7,A,6,C
+Jiajun He,4,9,,,5,2,20,,Kornel Ehmann,8,4,4,,4,8,A,4,B
+Jian Cao,10,,,8,2,,20,,Martin Ostoja-Starzewski,8,4,4,,4,8,A,4,B
+Jie Feng,8,,,10,2,,20,,J. Edward Colgate,,13,3,,4,13,B,4,E
+John A. Rogers,7,3,6,,4,,20,,Sascha Hilgenfeldt,4,9,3,,4,9,B,4,A
+John Rudnicki,5,2,7,2,4,,20,,Michael Peshkin,2,12,2,,4,12,B,4,E
+Jorge E. Correa,1,1,,1,2,15,20,,Justin Yim,4,10,2,,4,10,B,4,A
+Jose Pons,11,,1,6,2,,20,,Todd D Murphey,,16,,,4,16,B,4,E
+Joseph Bentsman,3,12,1,1,3,,20,,Blake Everett Johnson,2,4,,,4,4,B,4,B
+Julio M. Ottino,2,5,8,1,4,,20,,Mickey Clemon,8,,,,4,8,A,4,E
+Junsoo Kim,7,3,8,,2,,20,,Cheng Sun,5,3,8,1,3,8,C,5,A
+Justin Yim,4,10,2,,4,,20,,Sanjiv Sinha,4,6,6,1,3,6,B,6,B
+Kathryn H Matlack,9,5,6,,,,20,,Bumsoo Han,10,4,2,1,3,10,A,4,B
+Ke Tang,4,13,,,3,,20,,Joseph Bentsman,3,12,1,1,3,12,B,3,A
+Kellie M. Halloran,6,4,2,2,6,,20,,Leonardo Chamorro,4,5,8,,3,8,C,5,B
+Kevin E. Wandke,,10,,,2,,12,,Nenad Miljkovic,6,3,8,,3,8,C,6,A
+Kevin Lynch,7,,,12,1,,20,,Gianluca Cusatis,11,,5,,3,11,A,5,C
+Kevin Wise,6,6,1,,7,,20,,Wing Kam Liu,11,4,2,,3,11,A,4,B
+Kornel Ehmann,8,4,4,,4,,20,,Prashant Mehta,,16,1,,3,16,B,3,E
+Kyle C. Smith,8,1,5,4,2,,20,,Michael Rubenstein,3,13,1,,3,13,B,3,A
+Leonardo Chamorro,4,5,8,,3,,20,,Ke Tang,4,13,,,3,13,B,4,A
+Lili Cai,13,2,,,5,,20,,Bahador Bahmani,8,9,,,3,9,B,8,A
+M Taher A. Saif,12,1,5,,2,,20,,Jie Feng,8,,,10,2,10,D,8,A
+M. Quinn Brewster,10,3,7,,,,20,,Jian Cao,10,,,8,2,10,A,8,D
+Malcolm A MacIver,4,5,3,,8,,20,,Jose Pons,11,,1,6,2,11,A,6,D
+Manohar Kulkarni,15,,1,3,1,,20,,Siyi Xu,,5,8,5,2,8,C,5,B
+Mariana E. Kersh,5,1,8,2,4,,20,,Kyle C. Smith,8,1,5,4,2,8,A,5,C
+Martin Ostoja-Starzewski,8,4,4,,4,,20,,Mitra J. Hartmann,4,3,8,3,2,8,C,4,A
+Matthew J Major,7,4,4,4,1,,20,,Elif Ertekin,7,,9,2,2,9,C,7,A
+Matthew West,4,10,1,,5,,20,,naira hovakimyan,2,13,1,2,2,13,B,2,A
+Mattia Gazzola,2,9,4,1,4,,20,,Q. Jane Wang,6,3,8,1,2,8,C,6,A
+Michael Peshkin,2,12,2,,4,,20,,Randy H. Ewoldt,10,,7,1,2,10,A,7,C
+Michael Rubenstein,3,13,1,,3,,20,,Tonghun Lee,9,3,5,1,2,9,A,5,C
+Mickey Clemon,8,,,,4,,12,,Petia M. Vlahovska,6,8,3,1,2,8,B,6,A
+Mitra J. Hartmann,4,3,8,3,2,,20,,Callan Luetkemeyer,15,1,1,1,2,15,A,2,E
+Naichen Shi,3,13,3,,1,,20,,Jorge E. Correa,1,1,,1,2,2,E,1,A
+naira hovakimyan,2,13,1,2,2,,20,,Sameh Tawfick,3,2,13,,2,13,C,3,A
+Nazanin Farjam,6,4,8,,,,18,,Junsoo Kim,7,3,8,,2,8,C,7,A
+Neelesh A. Patankar,7,9,3,,1,,20,,Yip-Wah Chung,6,5,7,,2,7,C,6,A
+Nenad Miljkovic,6,3,8,,3,,20,,Yonggang Huang,6,5,7,,2,7,C,6,A
+Nick G. Glumac,3,6,1,2,8,,20,,Sinan Keten,6,6,6,,2,6,A,6,A
+Nikhil Chandra Admal,12,5,3,,,,20,,Iwona Jasiuk,9,3,6,,2,9,A,6,C
+Oluwaseyi Balogun,7,5,4,4,,,20,,M Taher A. Saif,12,1,5,,2,12,A,5,C
+Paul Fischer,7,2,1,5,5,,20,,William P. King,12,1,5,,2,12,A,5,C
+Petia M. Vlahovska,6,8,3,1,2,,20,,Horacio Espinosa,12,2,4,,2,12,A,4,C
+Petros Sofronis,12,1,1,,6,,20,,Seid Koric,8,8,2,,2,8,A,8,A
+Ping Guo,11,2,3,3,1,,20,,A. Vakakis,10,6,2,,2,10,A,6,B
+Placid Ferreira,8,10,1,,1,,20,,Greg Wagner,12,4,2,,2,12,A,4,B
+Prashant Mehta,,16,1,,3,,20,,Brenna Argall,7,11,,,2,11,B,7,A
+Q. Jane Wang,6,3,8,1,2,,20,,Kevin E. Wandke,,10,,,2,10,B,2,E
+Randy H. Ewoldt,10,,7,1,2,,20,,Craig Bradshaw,18,,,,2,18,A,2,E
+Richard M. Lueptow,4,3,10,2,1,,20,,Kevin Lynch,7,,,12,1,12,D,7,A
+Ryan L. Truby,3,7,4,,6,,20,,Matthew J Major,7,4,4,4,1,7,A,4,B
+Sam Kriegman,,14,,,6,,20,,Ping Guo,11,2,3,3,1,11,A,3,C
+Sameh Tawfick,3,2,13,,2,,20,,Manohar Kulkarni,15,,1,3,1,15,A,3,D
+Sandip Ghosal,2,15,1,2,,,20,,Richard M. Lueptow,4,3,10,2,1,10,C,4,A
+Sanjiv Sinha,4,6,6,1,3,,20,,Amy Wagoner Johnson,9,4,4,2,1,9,A,4,B
+Sascha Hilgenfeldt,4,9,3,,4,,20,,Arne J. Pearlstein,6,3,10,,1,10,C,6,A
+Seid Koric,8,8,2,,2,,20,,Janelle Wharry,15,,4,,1,15,A,4,C
+Seth Lichter,5,7,2,,6,,20,,Srinivasa Salapaka,1,15,3,,1,15,B,3,C
+Shelby B. Hutchens,9,3,3,,5,,20,,Naichen Shi,3,13,3,,1,13,B,3,A
+Sinan Keten,6,6,6,,2,,20,,Neelesh A. Patankar,7,9,3,,1,9,B,7,A
+Siyi Xu,,5,8,5,2,,20,,Placid Ferreira,8,10,1,,1,10,B,8,A
+Sophie Wang,7,1,,12,,,20,,Sophie Wang,7,1,,12,,12,D,7,A
+Sridhar Krishnaswamy,6,7,6,1,,,20,,"Tao Sun, T. Sun",8,2,,10,,10,D,8,A
+Srinivasa Salapaka,1,15,3,,1,,20,,Brian S. Mercer,12,,2,6,,12,A,6,D
+Steven Gard,9,2,2,3,4,,20,,Oluwaseyi Balogun,7,5,4,4,,7,A,5,B
+"Tao Sun, T. Sun",8,2,,10,,,20,,Sandip Ghosal,2,15,1,2,,15,B,2,A
+Thomas Golecki,6,4,,,10,,20,,Sridhar Krishnaswamy,6,7,6,1,,7,B,6,A
+Todd D Murphey,,16,,,4,,20,,Nazanin Farjam,6,4,8,,,8,C,6,A
+Tonghun Lee,9,3,5,1,2,,20,,M. Quinn Brewster,10,3,7,,,10,A,7,C
+Wei Chen,4,1,,11,4,,20,,Kathryn H Matlack,9,5,6,,,9,A,6,C
+William P. King,12,1,5,,2,,20,,Nikhil Chandra Admal,12,5,3,,,12,A,5,B
+Wing Kam Liu,11,4,2,,3,,20,,,,,,,,,,,
+Yip-Wah Chung,6,5,7,,2,,20,,,,,,,,,,,
+Yonggang Huang,6,5,7,,2,,20,,,,,,,,,,,
+总计,652,511,364,145,302,18,1992,,,,,,,,,,,
