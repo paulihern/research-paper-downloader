@@ -30,8 +30,9 @@ print("Clustering done.")
 print("Cluster counts:", np.bincount(cluster_labels))
 
 
-INPUT_CSV = "pdf_with_abstracts_final.csv"         
-OUTPUT_CSV = "pdf_with_abstracts_final_k10.csv"
+INPUT_CSV = "paper_embeddings_meta.csv"
+OUTPUT_CSV = "papers_clustered_k10.csv"
+
 
 df = pd.read_csv(INPUT_CSV, encoding="utf-8-sig")
 
