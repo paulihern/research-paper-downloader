@@ -1,7 +1,7 @@
 import pandas as pd
 from keybert import KeyBERT
 
-INPUT_CSV = "paper_embeddings_meta.csv"
+INPUT_CSV = "pdf_with_abstracts_final_k10.csv"
 OUTPUT_CSV = "paper_keywords_k10.csv"
 
 TITLE_COL = "title"
