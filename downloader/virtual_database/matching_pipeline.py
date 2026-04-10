@@ -256,24 +256,24 @@ def evaluate_model(name, model, X_tr, y_tr, X_te, y_te):
 def run_model_comparison(S_attr, P_attr, X_true):
     print("\n── Model Comparison ──────────────────────────────────────────")
 
-    # --- Linear approximation (no sklearn needed) ---
-    X_hat_linear = approximate_X_linear(S_attr, P_attr)
-    linear_mse = mean_squared_error(X_true.ravel(), X_hat_linear.ravel())
-    linear_r2  = r2_score(X_true.ravel(), X_hat_linear.ravel())
-    print(f"  {'Linear (dot product, attribute space)':35s}  "
-          f"MSE={linear_mse:.5f}  R²={linear_r2:.4f}")
-
-    # --- Build pairwise feature dataset for sklearn models ---
-    print("\nBuilding pairwise feature dataset for nonlinear models…")
     features, labels = build_pairwise_features(S_attr, P_attr, X_true)
     X_tr, X_te, y_tr, y_te = train_test_split(
         features, labels, test_size=0.2, random_state=42
     )
     print(f"  Train: {X_tr.shape[0]}, Test: {X_te.shape[0]}, Features: {X_tr.shape[1]}")
 
+    # Linear model on test set
+    s_te = X_te[:, :30]
+    p_te = X_te[:, 30:60]
+    linear_pred = (s_te * p_te).sum(axis=1)
+    linear_mse = mean_squared_error(y_te, linear_pred)
+    linear_r2  = r2_score(y_te, linear_pred)
+    print(f"  {'Linear (dot product, attribute space)':35s}  "
+          f"MSE={linear_mse:.5f}  R²={linear_r2:.4f}")
+
     results = []
 
-    # Ridge (regularized linear)
+    # Ridge
     results.append(evaluate_model(
         "Ridge Regression (sklearn)",
         Ridge(alpha=1.0), X_tr, y_tr, X_te, y_te
@@ -297,7 +297,6 @@ def run_model_comparison(S_attr, P_attr, X_true):
     results.append({"model": "Linear (dot product, attr space)",
                     "mse": linear_mse, "r2": linear_r2})
     return pd.DataFrame(results).sort_values("r2", ascending=False)
-
 
 # ─────────────────────────────────────────────
 # MAIN
