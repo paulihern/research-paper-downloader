@@ -63,9 +63,10 @@ uiuc_w.to_csv("uiuc_major_weights.csv", index=False)
 # -------------------------
 # 2) set:scale
 # -------------------------
-n_nu = 2000
-n_uiuc = 2000  #  balanced；according to the real proportion int(n_nu * (9300/1773))
-
+# desired total sample size 
+N = 4000
+n_nu = int(round(N * (1773 / (1773 + 9300))))
+n_uiuc = N - n_nu
 # -------------------------
 # 3) demographic generation rules
 # -------------------------
