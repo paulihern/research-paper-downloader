@@ -42,7 +42,7 @@ EMBED_MODEL   = "all-MiniLM-L6-v2"             # fast, 384-dim; swap for larger 
 N_STUDENTS    = None                            # subsample for speed; set None for all 4000
 N_ATTRIBUTES  = 30                             # number of LLM-generated research attributes
 GEMINI_MODEL  = "gemini-2.5-flash"             # or "gemini-1.5-pro" for higher quality
-GEMINI_API_KEY = "AIzaSyDJcEcPQWrlA23Nx9hfPlyXM7vfvj4DUcw"    # ← paste your key here, or set env var GEMINI_API_KEY
+GEMINI_API_KEY = "API KEY"    # ← paste your key here, or set env var GEMINI_API_KEY
 
 OUTPUT_DIR    = Path("ra_outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
